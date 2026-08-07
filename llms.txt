@@ -1,6 +1,10 @@
 # Casa Villa Restaurant
-A Taste of Mexico in Stamford
-Address: 866 East Main Street, Stamford, CT 06902, United States
-Phone: +12033480622
+A Taste of Mexico in Stamford, CT.
+Address: 866 East Main Street, Stamford, CT 06902, USA
+Phone: (203) 348-0622
+Catering: (203) 323-1721
 Email: casavillarestaurant@yahoo.com
 Web: https://casavillarestaurant.com/cv-restaurant/
+Pages: Home, History, Contact
+Order: Regular Menu, Catering Menu, Grubhub
+Brand: primary #d1a868, secondary #fcf8f2, accent #c21f1f

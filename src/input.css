@@ -1,20 +1,69 @@
+/* Source for assets/styles.css — Kora backend recompiles this file. */
 @import "tailwindcss";
 @source "../**/*.html";
-@source "../assets/**/*.js";
+@source "../js/**/*.js";
 
+/* KORA_BRAND_THEME_START */
 @theme {
-  --color-primary: #d1a868;
-  --color-secondary: #fcf8f2;
-  --color-accent: #c21f1f;
-  --font-heading: "Playfair Display", serif;
-  --font-body: "Lato", sans-serif;
+  --color-brand-primary: #d1a868;
+  --color-brand-primary-dark: #a88650;
+  --color-brand-primary-foreground: #141414;
+  --color-brand-secondary: #fcf8f2;
+  --color-brand-secondary-foreground: #141414;
+  --color-brand-accent: #c21f1f;
+  --color-brand-accent-foreground: #ffffff;
+  --color-brand-dark: #141414;
+  --color-brand-ink: #1e1a17;
+  --color-brand-muted: #6b5e52;
+  --color-brand-soft: #fcf8f2;
+  --color-brand-border: rgba(209, 168, 104, 0.28);
+  --font-brand: "Playfair Display", Georgia, serif;
+  --font-heading: "Playfair Display", Georgia, serif;
+  --font-body: "Roboto", system-ui, sans-serif;
+  --font-nav: "Manrope", system-ui, sans-serif;
+  --font-script: "Herr Von Muellerhoff", "Kristi", cursive;
 }
+/* KORA_BRAND_THEME_END */
 
+/* KORA_BRAND_BASE_START */
 @layer base {
+  :root {
+    --header-h: 76px;
+    --site-chrome-h: 120px;
+    --ease: cubic-bezier(0.22, 1, 0.36, 1);
+    --color-brand-primary: #d1a868;
+    --color-brand-primary-dark: #a88650;
+    --color-brand-primary-foreground: #141414;
+    --color-brand-secondary: #fcf8f2;
+    --color-brand-secondary-foreground: #141414;
+    --color-brand-accent: #c21f1f;
+    --color-brand-accent-foreground: #ffffff;
+    --color-brand-dark: #141414;
+    --color-brand-ink: #1e1a17;
+    --color-brand-muted: #6b5e52;
+    --color-brand-soft: #fcf8f2;
+    --color-brand-border: rgba(209, 168, 104, 0.28);
+    --font-brand: "Playfair Display", Georgia, serif;
+    --font-heading: "Playfair Display", Georgia, serif;
+    --font-body: "Roboto", system-ui, sans-serif;
+    --font-nav: "Manrope", system-ui, sans-serif;
+    --font-script: "Herr Von Muellerhoff", "Kristi", cursive;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     font-family: var(--font-body);
+    color: var(--color-brand-ink);
+    background: var(--color-brand-secondary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
   }
+
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-heading);
+    font-family: var(--font-brand);
   }
 }
+/* KORA_BRAND_BASE_END */
