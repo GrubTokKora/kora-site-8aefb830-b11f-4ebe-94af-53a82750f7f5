@@ -1,13 +1,15 @@
 @import "tailwindcss";
 @source "../**/*.html";
 @source "../assets/**/*.js";
+
 @theme {
-  --color-primary: #d62828;
-  --color-secondary: #f77f00;
-  --color-accent: #003049;
-  --font-heading: "Times New Roman", Times, serif;
-  --font-body: Georgia, "Times New Roman", serif;
+  --color-primary: #d1a868;
+  --color-secondary: #fcf8f2;
+  --color-accent: #c21f1f;
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Lato", sans-serif;
 }
+
 @layer base {
   body {
     font-family: var(--font-body);
