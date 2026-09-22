@@ -11,7 +11,7 @@
     instagram: "https://www.instagram.com/casavillarestaurant/",
     twitter: "https://x.com/casa_villa",
     youtube: "https://www.youtube.com/channel/UCoJQeFQuIPTkLDNSA8FF1Hw",
-    yelp: "https://www.yelp.com/biz/casa-villa-restaurant-stamford",
+    yelp: "https://www.yelp.com/biz/casa-villa-restaurant-stamford-3",
     tiktok: "https://www.tiktok.com/@casavillarestaurant",
   };
 
