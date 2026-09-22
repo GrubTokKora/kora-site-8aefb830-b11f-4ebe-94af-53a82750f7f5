@@ -1181,5 +1181,70 @@ function initContactForm() {
     lb && lb.addEventListener("click", (e) => { if (e.target === lb) closeLb(); });
 
     initContactForm();
+
+    // Newsletter subscribe form
+    var nlForm = document.getElementById('newsletter-form');
+    if (nlForm) {
+      nlForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var cfg = window.KORA_CONFIG || window.KORA_SITE_CONFIG || {};
+        var apiBaseUrl = (cfg.apiBaseUrl || '').replace(/\/+$/, '');
+        var businessId = cfg.businessId;
+        var emailEl = document.getElementById('newsletter-email');
+        var phoneEl = document.getElementById('newsletter-phone');
+        var emailOpt = document.getElementById('newsletter-email-optin');
+        var smsOpt = document.getElementById('newsletter-sms-optin');
+        var msgEl = document.getElementById('newsletter-message');
+        var submitBtn = nlForm.querySelector('button[type="submit"]');
+
+        var email = emailEl ? (emailEl.value || '').trim() : '';
+        var phone = phoneEl ? (phoneEl.value || '').trim() : '';
+        var emailOptIn = emailOpt ? emailOpt.checked : false;
+        var smsOptIn = smsOpt ? smsOpt.checked : false;
+
+        function showMsg(t, err) {
+          if (msgEl) {
+            msgEl.textContent = t || '';
+            msgEl.style.color = err ? '#f87171' : '#4ade80';
+          }
+        }
+
+        if (!email && !phone) { showMsg('Please enter email or phone.', true); return; }
+        if (!emailOptIn && !smsOptIn) { showMsg('Please select at least one: Email or SMS updates.', true); return; }
+        if (smsOptIn && !phone) { showMsg('Please enter your phone for SMS updates.', true); return; }
+        if (emailOptIn && !email) { showMsg('Please enter your email for email updates.', true); return; }
+        if (!apiBaseUrl || !businessId) { showMsg('Subscription is not configured.', true); return; }
+
+        showMsg('Subscribing...', false);
+        if (submitBtn) submitBtn.disabled = true;
+
+        fetch(apiBaseUrl + '/api/v1/public/newsletter/subscribe', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            business_id: businessId,
+            email: email || null,
+            phone_number: phone || null,
+            email_opt_in: emailOptIn,
+            sms_opt_in: smsOptIn,
+            source: 'static_site_widget'
+          })
+        })
+        .then(function (r) {
+          if (r.ok) return r.json();
+          throw new Error('Request failed');
+        })
+        .then(function (data) {
+          showMsg(data.message || 'Subscribed! Thank you.', false);
+          nlForm.reset();
+        })
+        .catch(function () {
+          showMsg('Something went wrong. Please try again.', true);
+        })
+        .finally(function () {
+          if (submitBtn) submitBtn.disabled = false;
+        });
+      });
+    }
   });
 })();

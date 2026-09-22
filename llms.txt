@@ -6,5 +6,5 @@ Catering: (203) 323-1721
 Email: casavillarestaurant@yahoo.com
 Web: https://casavillarestaurant.com/cv-restaurant/
 Pages: Home, History, Contact
-Order: Regular Menu, Catering Menu, Grubhub
+Order: Regular Menu, Catering Menu
 Brand: primary #d1a868, secondary #fcf8f2, accent #c21f1f

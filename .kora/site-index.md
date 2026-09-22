@@ -12,6 +12,7 @@ sections:
 - `#hours` "Dine-in, pick-up & delivery" — Operating hours, delivery notes, and contact phone: Order Online
 - `#catering` "Feed the whole gathering" — Catering packages and event planning links: Fajita Bar, Taco Bar, Burrito Box, Catering Menu, Plan Your Event
 - `#gallery` "Plates worth the trip" — Gallery image buttons of dishes
+- `#subscribe` "Get deals & updates" — Newsletter subscribe form with email, phone, and consent checkboxes
 
 ## contact.html → /contact
 title: Contact Casa Villa Restaurant | Stamford CT Mexican Food
@@ -27,12 +28,12 @@ purpose: Present the history and background of the restaurant along with locatio
 sections:
 - `#main` "Our History" — hero banner
 - "South of the Rio Grande, right in Stamford" — restaurant history and overview: Order Online, Contact Us
-- "Find Casa Villa" — location and contact information card: Casa Villa Restaurant, Dine-in & pickup, Get Directions
+- "Find Casa Villa" — location and contact information card: Casa Villa Restaurant, Dine-in, pickup & delivery, Get Directions
 
 ## support files
 Files that are not pages. A line marked [content] holds words or data a visitor reads, so a
 change to the site's content can land there; the rest only make the site work or look right.
-- `llms.txt` — The restaurant's business details, contact information, pages, menus, and brand colors: Casa Villa Restaurant, Home, History, Contact, Regular Menu, Catering Menu, Grubhub  [content]
+- `llms.txt` — The restaurant's business details, contact information, pages, menus, and brand colors: Casa Villa Restaurant, Home, History, Contact, Regular Menu, Catering Menu  [content]
 - `robots.txt` — 26 bytes — too small to hold content
 - `sitemap.xml` — 110 bytes — too small to hold content
 - `assets/site.css` — Menu category tiles, background image definitions, and component UI styles for Casa Villa: appetizers, salads, entrees, burritos, soups, quesadillas, tacos, sides, desserts, drinks  [content]
