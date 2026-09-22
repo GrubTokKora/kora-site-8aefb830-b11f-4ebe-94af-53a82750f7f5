@@ -21,12 +21,12 @@
 <!-- KORA_GOOGLE_FONTS_START -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Manrope:wght@400;600;700&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Manrope:wght@400;600;700&amp;display=swap"></noscript>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Roboto:wght@400;600;700&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Roboto:wght@400;600;700&amp;display=swap"></noscript>
 <!-- KORA_GOOGLE_FONTS_END -->
-<link href="assets/styles.css" rel="stylesheet">
-<link href="assets/site.css" rel="stylesheet"/>
-<link as="image" href="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097688_vg3pif.jpg" rel="preload"><link as="video" href="https://stream.mux.com/Yt3RD5cKZpleTwd9r566r2rwesaeplQThL3TepRa02Lw/low.mp4" rel="preload">
+<link href="assets/styles.css" rel="stylesheet"/>
+<link href="assets/site.css" rel="stylesheet">
+<link as="image" href="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097688_vg3pif.jpg" rel="preload"/><link as="video" href="https://stream.mux.com/Yt3RD5cKZpleTwd9r566r2rwesaeplQThL3TepRa02Lw/low.mp4" rel="preload"/>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "Restaurant",
@@ -86,7 +86,7 @@
   "acceptsReservations": "False"
 }</script>
 
-</link></link></link></link><!-- KORA_FAVICON_START -->
+</link></link></link><!-- KORA_FAVICON_START -->
 <link href="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097900_kvp36j.png" rel="icon" type="image/png"/>
 <link href="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097900_kvp36j.png" rel="apple-touch-icon"/>
 <!-- KORA_FAVICON_END -->
@@ -223,11 +223,11 @@
 <h2>Get deals &amp; updates</h2>
 <p class="lede">Sign up for exclusive offers, new menu items, and Casa Villa news delivered to your inbox or phone.</p>
 <form class="newsletter-form" id="newsletter-form">
-<input id="newsletter-email" type="email" placeholder="your@email.com" autocomplete="email"/>
-<input id="newsletter-phone" type="tel" placeholder="(203) 000-0000" autocomplete="tel"/>
+<input autocomplete="email" id="newsletter-email" placeholder="your@email.com" type="email"/>
+<input autocomplete="tel" id="newsletter-phone" placeholder="(203) 000-0000" type="tel"/>
 <div class="newsletter-consents">
-<label><input type="checkbox" id="newsletter-email-optin" checked/> Email updates</label>
-<label><input type="checkbox" id="newsletter-sms-optin"/> SMS updates</label>
+<label><input checked="" id="newsletter-email-optin" type="checkbox"/> Email updates</label>
+<label><input id="newsletter-sms-optin" type="checkbox"/> SMS updates</label>
 </div>
 <button class="btn btn-primary" type="submit">Subscribe</button>
 <p id="newsletter-message"></p>
@@ -260,7 +260,8 @@
 <script>
 (function () {
   var koraUrl = "https://askkora.ai";
-  var muted = "#64748b";
+  var muted = "#475569";
+  var mutedBg = "#f1f5f9";
   var blue = "#1E88E5";
   var purple = "#7B1FA2";
   var startMarker = 'KORA_' + 'BRANDING_FOOTER_START';
@@ -288,8 +289,8 @@
     wrapper.className = 'kora-powered-by';
     wrapper.setAttribute('data-kora-branding-footer', 'true');
     wrapper.style.cssText = 'display:flex;justify-content:flex-end;align-items:center;gap:0.35rem;padding:0.75rem 1rem;font-size:0.75rem;';
-    wrapper.innerHTML = '<span style="color:' + muted + '">Powered by</span>' +
-      '<a href="' + koraUrl + '" target="_blank" rel="noopener noreferrer" style="text-decoration:none;font-weight:600;background:linear-gradient(135deg,' + blue + ',' + purple + ');-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent">Kora</a>';
+    wrapper.innerHTML = '<span style="color:' + muted + ';background:' + mutedBg + ';padding:0.15rem 0.55rem;border-radius:9999px;">Powered by</span>' +
+      '<a href="' + koraUrl + '" target="_blank" rel="nofollow noopener noreferrer" style="text-decoration:none;font-weight:600;background:linear-gradient(135deg,' + blue + ',' + purple + ');-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent">Kora</a>';
     return wrapper;
   }
 
