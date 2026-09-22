@@ -61,6 +61,7 @@
           <a href="index.html#menu"${active("menu")}>Menus</a>
           <a href="history.html"${active("history")}>Our History</a>
           <a href="contact.html"${active("contact")}>Contact</a>
+          <a href="index.html#subscribe">Subscribe</a>
           <div class="nav-dropdown nav-dropdown--cta">
             <button type="button" class="nav-cta" aria-haspopup="true" aria-expanded="false" data-order-toggle>Order Online</button>
             <div class="nav-dropdown-panel" role="menu" data-order-panel>
@@ -79,6 +80,7 @@
       <a href="index.html#menu">Menus</a>
       <a href="history.html">Our History</a>
       <a href="contact.html">Contact</a>
+      <a href="index.html#subscribe">Subscribe</a>
       <a href="${ORDER_REGULAR}" target="_blank" rel="noopener noreferrer">Order Regular Menu</a>
       <a href="${ORDER_CATERING}" target="_blank" rel="noopener noreferrer">Order Catering</a>
       <a href="tel:${PHONE}">Call ${PHONE_DISPLAY}</a>`;
@@ -103,8 +105,6 @@
             <h4>Order</h4>
             <a href="${ORDER_REGULAR}" target="_blank" rel="noopener noreferrer">Regular Menu</a>
             <a href="${ORDER_CATERING}" target="_blank" rel="noopener noreferrer">Catering Menu</a>
-            <a href="${MAPS}" target="_blank" rel="noopener noreferrer">Google Maps</a>
-            <a href="https://maps.apple.com/?address=866+East+Main+Street,+Stamford,+CT+06902&ll=41.0558127,-73.5254592" target="_blank" rel="noopener noreferrer">Apple Maps</a>
           </div>
           <div class="footer-col">
             <h4>Explore</h4>
