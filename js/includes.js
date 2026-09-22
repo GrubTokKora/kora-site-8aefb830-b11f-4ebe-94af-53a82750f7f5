@@ -103,8 +103,6 @@
             <h4>Order</h4>
             <a href="${ORDER_REGULAR}" target="_blank" rel="noopener noreferrer">Regular Menu</a>
             <a href="${ORDER_CATERING}" target="_blank" rel="noopener noreferrer">Catering Menu</a>
-            <a href="${MAPS}" target="_blank" rel="noopener noreferrer">Google Maps</a>
-            <a href="https://maps.apple.com/?address=866+East+Main+Street,+Stamford,+CT+06902&ll=41.0558127,-73.5254592" target="_blank" rel="noopener noreferrer">Apple Maps</a>
           </div>
           <div class="footer-col">
             <h4>Explore</h4>
