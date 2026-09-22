@@ -13,8 +13,6 @@
     youtube: "https://www.youtube.com/channel/UCoJQeFQuIPTkLDNSA8FF1Hw",
     yelp: "https://www.yelp.com/biz/casa-villa-restaurant-stamford",
     tiktok: "https://www.tiktok.com/@casavillarestaurant",
-    tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g33936-d1631717-Reviews-Casa_Villa_Express-Stamford_Connecticut.html",
-    grubhub: "https://www.grubhub.com/restaurant/casa-villa-express-182-w-main-st-stamford/2695381"
   };
 
   window.CV_LINKS = { ORDER_REGULAR, ORDER_CATERING, PHONE, PHONE_DISPLAY, CATERING_PHONE, MAPS, SOCIALS };
@@ -105,8 +103,8 @@
             <h4>Order</h4>
             <a href="${ORDER_REGULAR}" target="_blank" rel="noopener noreferrer">Regular Menu</a>
             <a href="${ORDER_CATERING}" target="_blank" rel="noopener noreferrer">Catering Menu</a>
-            <a href="${SOCIALS.grubhub}" target="_blank" rel="noopener noreferrer">Grubhub</a>
-            <a href="${SOCIALS.tripadvisor}" target="_blank" rel="noopener noreferrer">Tripadvisor</a>
+            <a href="${MAPS}" target="_blank" rel="noopener noreferrer">Google Maps</a>
+            <a href="https://maps.apple.com/?address=866+East+Main+Street,+Stamford,+CT+06902&ll=41.0558127,-73.5254592" target="_blank" rel="noopener noreferrer">Apple Maps</a>
           </div>
           <div class="footer-col">
             <h4>Explore</h4>
