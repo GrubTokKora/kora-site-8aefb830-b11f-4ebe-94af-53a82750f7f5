@@ -1,10 +1,29 @@
 # Casa Villa Restaurant
-A Taste of Mexico in Stamford, CT.
-Address: 866 East Main Street, Stamford, CT 06902, USA
-Phone: (203) 348-0622
-Catering: (203) 323-1721
-Email: casavillarestaurant@yahoo.com
-Web: https://casavillarestaurant.com/cv-restaurant/
-Pages: Home, History, Contact
-Order: Regular Menu, Catering Menu
-Brand: primary #d1a868, secondary #fcf8f2, accent #c21f1f
+
+> Casa Villa Restaurant, located in Stamford, Connecticut, offers a diverse menu of authentic Mexican and Latin American cuisine prepared with fresh ingredients. The restaurant is known for its generous portions and traditional breakfast, lunch, and dinner options, including tacos, burritos, fajitas, enchiladas, and fresh seafood.
+
+## Menu
+Casa Villa offers a diverse menu of authentic Mexican and Latin American cuisine, featuring traditional breakfast, lunch, and dinner options such as tacos, burritos, fajitas, enchiladas, and fresh seafood, all prepared with fresh ingredients and known for generous portions.
+
+## Location & Contact
+- Address: 866 East Main Street, Stamford, CT 06902, United States
+- Phone: +12033480622
+- Email: casavillarestaurant@yahoo.com
+
+## Hours
+- Monday: 11:00 AM – 9:00 PM
+- Tuesday: 11:00 AM – 9:00 PM
+- Wednesday: 11:00 AM – 9:00 PM
+- Thursday: 11:00 AM – 9:00 PM
+- Friday: 11:00 AM – 10:00 PM
+- Saturday: 11:00 AM – 10:00 PM
+- Sunday: 11:00 AM – 9:00 PM
+
+## Action Links
+- [Order Online](https://casavilla2.onlineordersnow.com/MenuDisplay)
+
+## Social
+- [Instagram](https://www.instagram.com/casavillarestaurant/)
+- [Facebook](https://www.facebook.com/CasaVillaStamford/)
+- [Twitter](https://x.com/casa_villa)
+- [YouTube](https://www.youtube.com/channel/UCoJQeFQuIPTkLDNSA8FF1Hw)
