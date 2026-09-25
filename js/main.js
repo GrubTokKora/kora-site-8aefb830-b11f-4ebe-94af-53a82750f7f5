@@ -720,93 +720,98 @@ window.CV_MENU = {
   catering: {
     appetizers: [
       {
-        name: "Cheese Quesadillas",
-        price: "$45",
-        description: "Serves about 8. Served with sour cream and pico de gallo."
+        name: "House Special Quesadillas (Serves about 8)",
+        price: "$57.00",
+        description: "With your choice of filling (chicken, steak, vegetables, or pork carnitas) Served with sour cream and pico de gallo. Be sure to purchase utensils if you'll need them (from the Miscellaneous category)."
       },
       {
-        name: "Special Quesadillas",
-        price: "$57",
-        description: "Serves about 8. Served with sour cream and pico de gallo. Choice of meat: vegetables, chicken, pork, steak. Shrimp $58."
+        name: "Cheese Quesadillas (Serves about 8)",
+        price: "$45.00",
+        description: "Served with sour cream and pico de gallo. Be sure to purchase utensils if you'll need them (from the Miscellaneous category)."
       }
     ],
     entrees: [
       {
-        name: "Fajitas Bar",
-        price: "$17.95/pp",
-        description: "Our most popular catering menu item. Served with rice, beans, sour cream, pico de gallo, guacamole and three soft flour tortillas per person. Choice of protein: chicken, steak or vegetarian. Shrimp $18.95/pp."
-      },
-      {
-        name: "Taco Bar",
-        price: "$15.95/pp",
-        description: "Authentic Mexican tacos (two per person) made with soft corn tortillas and served with rice and pinto beans. Comes with red and green salsa, chopped onions, cilantro, sour cream and cheese on the side and your choice of protein (beef, chicken, pork, shrimp, al pastor or vegetarian). Add guacamole for $2.00/pp."
-      },
-      {
-        name: "Burrito Box",
-        price: "$14.95/pp",
-        description: "Grab-and-go flour tortilla filled with choice of protein, sautéed onions, tomatoes, rice, beans and cheese. Served with sour cream and pico de gallo. Add guacamole for $2.00/pp."
+        name: "Fajita Bar",
+        price: "$17.95",
+        description: "Your choice of fajitas (Chicken, steak, vegetarian or shrimp) Served with rice, beans, sour cream, pico de gallo, guacamole, three soft flour tortillas. Price is per person. Be sure to purchase utensils if you'll need them (from the Miscellaneous category)."
       },
       {
         name: "Taco Tray (Serves about 8)",
-        price: "$70",
-        description: "20 tacos with your choice of filling, made with soft corn tortillas and topped with cilantro, chopped onions and spicy salsa."
+        price: "$70.00",
+        description: "20 Tacos with your choice of filling, made with soft corn tortillas and topped with cilantro, chopped onions and spicy salsa. Be sure to purchase utensils if you'll need them (from the Miscellaneous category)."
+      },
+      {
+        name: "Taco Bar",
+        price: "$15.95",
+        description: "Our Authentic Mexican tacos (two per person) are made with soft corn tortillas and topped with green or red salsa, chopped onions and cilantro served with rice and pinto beans. Sour cream and shredded cheese on the side. (Price is per person) Be sure to purchase utensils if you'll need them (from the Miscellaneous category)."
+      },
+      {
+        name: "Burrito Box",
+        price: "$14.95",
+        description: "This \"grab & go\" option includes a flour tortilla filled with your choice of protein (chicken, steak, pork or veggies) with sautéed onions, tomatoes, rice, beans, and cheese. Served with sour cream and pico de gallo. Price is per person. Be sure to purchase utensils if you'll need them (from the Miscellaneous category). Can be packaged individually or buffet style"
       },
       {
         name: "1/4 Grilled Chicken with Rice and Beans",
-        price: "$14.00/pp",
-        description: "Charcoal-grilled, marinated chicken served with rice, refried beans and hot salsa."
+        price: "$14.00",
+        description: "Charcoal-grilled, marinated chicken served with rice, refried beans and hot salsa. Price is per person. Be sure to purchase utensils if you'll need them (from the Miscellaneous category)."
       }
     ],
     sideSalads: [
       {
-        name: "Small Mexican Salad",
-        price: "$45",
-        description: "Chopped salad with avocado, black beans, diced tomatoes, red onions, corn kernels and shredded Cotija cheese, tossed with our homemade fresh jalapeño-yogurt dressing. Enough for 10–15 people."
-      },
-      {
-        name: "Large Mexican Salad",
-        price: "$90",
-        description: "Chopped salad with avocado, black beans, diced tomatoes, red onions, corn kernels and shredded Cotija cheese, tossed with our homemade fresh jalapeño-yogurt dressing. Enough for 35–40 people."
-      },
-      {
         name: "Small House Salad with Avocado",
-        price: "$40",
-        description: "Lettuce, tomatoes, onions, carrots and avocado, tossed with your choice of our fresh jalapeño-yogurt or Italian dressing. Enough for 10–15 people."
+        price: "$40.00",
+        description: "Lettuce, tomatoes, onions, carrots and avocado, tossed with your choice of our fresh jalapeño-yogurt, or Italian dressing. Be sure to purchase utensils if you'll need them (from the Miscellaneous category)"
       },
       {
         name: "Large House Salad with Avocado",
-        price: "$80",
-        description: "Lettuce, tomatoes, onions, carrots and avocado, tossed with your choice of our fresh orange-chipotle or Italian dressing. Enough for 30–40 people."
+        price: "$80.00",
+        description: "Lettuce, tomatoes, onions, carrots and avocado, tossed with your choice of our fresh jalapeño-yogurt, or Italian dressing. Be sure to purchase utensils if you'll need them (from the Miscellaneous category)"
+      },
+      {
+        name: "Small Mexican Salad",
+        price: "$45.00",
+        description: "Chopped salad with avocado, black beans, diced tomatoes, red onions, corn kernels and shredded cotija cheese, tossed with our homemade fresh jalapeño-yogurt dressing. Be sure to purchase utensils if you'll need them (from the Miscellaneous category)."
+      },
+      {
+        name: "Large Mexican Salad",
+        price: "$90.00",
+        description: "Chopped salad with avocado, black beans, diced tomatoes, red onions, corn kernels and shredded cotija cheese, tossed with our homemade fresh jalapeño-yogurt dressing. Be sure to purchase utensils if you'll need them (from the Miscellaneous category)."
       }
     ],
     sides: [
       {
         name: "Small Guacamole",
-        price: "$24",
-        description: "Mashed ripe avocados with diced red onions, cilantro and lime juice. 16 oz. For about 8 people."
+        price: "$24.00",
+        description: "Mashed ripe avocados with diced red onions, cilantro and lime juice"
       },
       {
         name: "Large Guacamole",
-        price: "$45",
-        description: "Mashed ripe avocados with diced red onions, cilantro and lime juice. 32 oz. For about 15 people."
+        price: "$45.00",
+        description: "Mashed ripe avocados with diced red onions, cilantro and lime juice"
       },
       {
-        name: "Sweet Ripe Plantains (Maduros)",
+        name: "Fried Sweet Plantains (Maduros)",
         price: "$36.00",
-        description: "For 8–10 people."
+        description: "For about 8-10 people"
       },
       {
         name: "Fried Green Plantains (Tostones)",
         price: "$36.00",
-        description: "For 8–10 people."
+        description: "Be sure to purchase utensils if you'll need them (from the Miscellaneous category)."
       },
       {
-        name: "Rice and Beans",
-        price: "$4/pp",
-        description: ""
+        name: "Side of Rice PP",
+        price: "$2.00",
+        description: "Be sure to purchase utensils if you'll need them (from the Miscellaneous category)."
       },
       {
-        name: "Chips and Salsa",
+        name: "Side of Beans PP",
+        price: "$2.00",
+        description: "Be sure to purchase utensils if you'll need them (from the Miscellaneous category)."
+      },
+      {
+        name: "Chips and Salsa (per person)",
         price: "$2.00",
         description: ""
       }
@@ -814,50 +819,50 @@ window.CV_MENU = {
     desserts: [
       {
         name: "Churros",
-        price: "$38",
-        description: "Enough for 8 to 10 people."
+        price: "$38.00",
+        description: "Mexican \"doughnut sticks\" dusted with cinnamon-sugar, served with dulce de leche (caramelized milk confection). Be sure to purchase utensils if you'll need them (from the Miscellaneous category)."
       },
       {
-        name: "Tres Leches Cake",
-        price: "$48",
-        description: "Enough for 8 to 10 people."
+        name: "Tres Leches Cake (serves 10)",
+        price: "$48.00",
+        description: "Sponge-like cake soaked in three types of milk. Be sure to purchase utensils if you'll need them (from the Miscellaneous category)."
       },
       {
-        name: "Chocolate Chip Cookies",
-        price: "$2.00/each",
-        description: ""
+        name: "Chocolate Chip Cookies (each)",
+        price: "$2.00",
+        description: "Order one or more per person"
       }
     ],
     drinks: [
       {
-        name: "2 Liter Bottle of Soda",
-        price: "$6.00/each",
-        description: "Coke, Diet Coke, Sprite, Ginger Ale."
-      },
-      {
-        name: "1.5 Liter of Mexican Flavored Soda",
-        price: "$6.00/each",
-        description: "Tamarind, pineapple, mandarin."
-      },
-      {
         name: "Individual Drinks",
-        price: "$3.00/each",
-        description: "Bottle water, can Coke, Diet Coke, Sprite, Ginger Ale."
+        price: "$3.00",
+        description: "Bottled water, can Coke, Diet Coke, Sprite, Ginger Ale"
       },
       {
-        name: "Jarritos (Mexican Flavored Sodas)",
-        price: "$4/each",
-        description: "Tamarind, pineapple, mandarin, apple, lime, grapefruit."
+        name: "1.5 Liter Mexican Flavored Sodas (serves 3-5)",
+        price: "$6.00",
+        description: "Tamarind, pineapple, mandarin"
       },
       {
-        name: "Serving Utensils for a Group",
+        name: "Assorted 2L Soda Bottles",
+        price: "$6.00",
+        description: ""
+      },
+      {
+        name: "Individual Mexican Flavored Sodas (Jarritos)",
+        price: "$4.00",
+        description: "Tamarind, pineapple, mandarin, apple, lime"
+      },
+      {
+        name: "Serving Utensils",
         price: "$12.00",
-        description: "Tongs, serving spoons, serving forks."
+        description: "Tongs, Serving Spoons, Serving Forks (for a group)"
       },
       {
         name: "Tableware",
-        price: "$1.00/each",
-        description: "Paper plates, paper cups, cutlery, napkins."
+        price: "$1.00",
+        description: "Paper plates, paper cups, napkins, plasticware (If only plasticware needed, FREE)"
       }
     ]
   }
