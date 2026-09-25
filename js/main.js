@@ -45,10 +45,62 @@ window.CV_MENU = {
       ]
     },
     {
+      id: "salads",
+      name: "Salads",
+      image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097676_1jxkwc.jpg",
+      items: [
+        {
+          name: "Ensalada de la Casa",
+          price: "$16.00",
+          description: "Romaine, field greens, tomatoes, red onions, carrots with our orange chipotle vinaigrette, topped with avocado. Add chicken +$4.00; grilled shrimp +$5.00; grilled salmon +$7.00."
+        },
+        {
+          name: "Ensalada Caesar",
+          price: "$17.00",
+          description: "Made with romaine hearts, queso añejo, jalapeño-croutons, diced avocado and our classic Caesar dressing. Add chicken +$4.00; steak +$5.00; grilled shrimp +$5.00; grilled salmon +$7.00."
+        },
+        {
+          name: "Ensalada Mexicana",
+          price: "$17.00",
+          description: "Romaine and field greens, black bean kernels, diced avocado, red onions, Cotija cheese and our fresh jalapeño-yogurt dressing. Add chicken +$4.00; steak +$5.00; grilled shrimp +$5.00; grilled salmon +$7.00."
+        }
+      ]
+    },
+    {
       id: "entrees",
       name: "Entrees",
       image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097683_kubq47.jpg",
       items: [
+        {
+          name: "Fajitas — Chicken",
+          price: "$21.00",
+          description: "Sizzling marinated chicken with peppers, onions and cilantro, served with rice, pinto beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
+        },
+        {
+          name: "Fajitas — Steak",
+          price: "$23.00",
+          description: "Sizzling marinated steak with peppers, onions and cilantro, served with rice, pinto beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
+        },
+        {
+          name: "Fajitas — Shrimp",
+          price: "$25.00",
+          description: "Sizzling marinated shrimp with peppers, onions and cilantro, served with rice, pinto beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
+        },
+        {
+          name: "Fajitas — All the Way (Trio)",
+          price: "$27.00",
+          description: "Sizzling marinated chicken, steak and shrimp with peppers, onions and cilantro, served with rice, pinto beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
+        },
+        {
+          name: "Fajitas Vegetarianas",
+          price: "$20.00",
+          description: "Sautéed zucchini, yellow squash, red and green peppers, onions, and cilantro. Served with rice and beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
+        },
+        {
+          name: "Pollo A La Brasa con Arroz y Frijoles",
+          price: "$14.00 / $18.00",
+          description: "Charcoal-grilled, marinated chicken served with rice, beans and salsa. Quarter chicken $14.00; half chicken $18.00."
+        },
         {
           name: "Camarones Enchipotlados",
           price: "$24.00",
@@ -174,9 +226,14 @@ window.CV_MENU = {
       image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097848_cjjzrh.jpg",
       items: [
         {
+          name: "Sopa de Pollo",
+          price: "$13.00 / $17.00",
+          description: "Homestyle bone-in chicken soup with vegetables and potatoes, garnished with onions and cilantro. Served with a side of rice or corn tortillas. App $13.00; large $17.00."
+        },
+        {
           name: "Sopa de Mariscos",
-          price: "$22.00",
-          description: "A combination of seafood (clams, shrimp, calamari, crab, and mussels) and vegetables in a red seafood broth. Served with a side of rice or corn tortillas."
+          price: "$15.00 / $24.00",
+          description: "A combination of seafood (clams, shrimp, calamari, crab, and mussels) and vegetables in a red seafood broth. Served with a side of rice or corn tortillas. Small $15.00; large $24.00."
         }
       ]
     },
@@ -367,6 +424,11 @@ window.CV_MENU = {
           name: "Jamaica",
           price: "$4.00",
           description: "Natural hibiscus-flavored water (aguas naturales)."
+        },
+        {
+          name: "Jarritos (Mexican Flavored Soda)",
+          price: "$4.00",
+          description: "Glass bottled Mexican flavored sodas. Choice of: lime, mandarin, tamarind, pineapple, grapefruit."
         },
         {
           name: "Diet Coke & Ginger Ale",
@@ -600,7 +662,39 @@ window.CV_MENU = {
         description: "Charcoal-grilled, marinated chicken served with rice, refried beans and hot salsa."
       }
     ],
+    sideSalads: [
+      {
+        name: "Small Mexican Salad",
+        price: "$45",
+        description: "Chopped salad with avocado, black beans, diced tomatoes, red onions, corn kernels and shredded Cotija cheese, tossed with our homemade fresh jalapeño-yogurt dressing. Enough for 10–15 people."
+      },
+      {
+        name: "Large Mexican Salad",
+        price: "$90",
+        description: "Chopped salad with avocado, black beans, diced tomatoes, red onions, corn kernels and shredded Cotija cheese, tossed with our homemade fresh jalapeño-yogurt dressing. Enough for 35–40 people."
+      },
+      {
+        name: "Small House Salad with Avocado",
+        price: "$40",
+        description: "Lettuce, tomatoes, onions, carrots and avocado, tossed with your choice of our fresh jalapeño-yogurt or Italian dressing. Enough for 10–15 people."
+      },
+      {
+        name: "Large House Salad with Avocado",
+        price: "$80",
+        description: "Lettuce, tomatoes, onions, carrots and avocado, tossed with your choice of our fresh orange-chipotle or Italian dressing. Enough for 30–40 people."
+      }
+    ],
     sides: [
+      {
+        name: "Small Guacamole",
+        price: "$24",
+        description: "Mashed ripe avocados with diced red onions, cilantro and lime juice. 16 oz. For about 8 people."
+      },
+      {
+        name: "Large Guacamole",
+        price: "$45",
+        description: "Mashed ripe avocados with diced red onions, cilantro and lime juice. 32 oz. For about 15 people."
+      },
       {
         name: "Sweet Ripe Plantains (Maduros)",
         price: "$36.00",
