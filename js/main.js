@@ -205,6 +205,16 @@ window.CV_MENU = {
           name: "Pechuga Ranchera",
           price: "$16.00",
           description: "Sliced boneless chicken breast sautéed with sliced onions, fresh jalapeños and cilantro, served with rice and beans."
+        },
+        {
+          name: "Cecina",
+          price: "$19.00",
+          description: "Thinly sliced aged beef served with queso fresco, avocado, rice and beans."
+        },
+        {
+          name: "Carne Adobada",
+          price: "$18.00",
+          description: "Chile-marinated pork slices served with rice, beans, avocado and queso fresco."
         }
       ]
     },
@@ -247,8 +257,8 @@ window.CV_MENU = {
         },
         {
           name: "Sopa de Mariscos",
-          price: "$15.00 / $24.00",
-          description: "A combination of seafood (clams, shrimp, calamari, crab, and mussels) and vegetables in a red seafood broth. Served with a side of rice or corn tortillas. Small $15.00; large $24.00."
+          price: "$22.00",
+          description: "A combination of seafood (clams, shrimp, calamari, crab, and mussels) and vegetables in a red seafood broth. Served with a side of rice or corn tortillas."
         }
       ]
     },
@@ -336,7 +346,7 @@ window.CV_MENU = {
         },
         {
           name: "3 Tacos de Pescado",
-          price: "$21.00",
+          price: "$18.00",
           description: "Three fish tacos topped with a roasted corn salsa. Served with rice and black beans."
         }
       ]
@@ -383,7 +393,7 @@ window.CV_MENU = {
         },
         {
           name: "Chips and Salsa",
-          price: "$4.00",
+          price: "$5.00",
           description: ""
         },
         {
@@ -405,7 +415,7 @@ window.CV_MENU = {
       items: [
         {
           name: "Churros con Dulce de Leche",
-          price: "$10.00",
+          price: "$11.00",
           description: "Mexican doughnut sticks dusted with cinnamon sugar, served with dulce de leche (Mexican caramel)."
         },
         {
@@ -446,9 +456,9 @@ window.CV_MENU = {
           description: "Glass bottled Mexican flavored sodas. Choice of: lime, mandarin, tamarind, pineapple, grapefruit."
         },
         {
-          name: "Canned Sodas",
-          price: "$4.00",
-          description: "Coke, Diet Coke, Sprite, Ginger Ale."
+          name: "Diet Coke & Ginger Ale",
+          price: "$3.00",
+          description: "Diet Coke, Ginger Ale."
         },
         {
           name: "Topo Chico (Mineral Water)",
@@ -532,7 +542,7 @@ window.CV_MENU = {
     },
     {
       name: "Pechuga de Pollo Ranchera Lunch",
-      price: "$15.00",
+      price: "$16.00",
       description: "Boneless breast of chicken sautéed with onions, tomatoes, and fresh jalapeños. Served with rice, beans, and corn tortillas."
     },
     {
@@ -577,7 +587,7 @@ window.CV_MENU = {
     },
     {
       name: "Chicken Burrito Plain",
-      price: "$13.00",
+      price: "$14.00",
       description: "Plain, without rice or beans. Diced chicken sautéed with onions, tomatoes, cheese, and salsa roja, served with guacamole, pico de gallo and sour cream."
     },
     {
@@ -705,6 +715,16 @@ window.CV_MENU = {
         name: "Burrito Box",
         price: "$14.95/pp",
         description: "Grab-and-go flour tortilla filled with choice of protein, sautéed onions, tomatoes, rice, beans and cheese. Served with sour cream and pico de gallo. Add guacamole for $2.00/pp."
+      },
+      {
+        name: "Taco Tray (Serves about 8)",
+        price: "$70",
+        description: "20 tacos with your choice of filling, made with soft corn tortillas and topped with cilantro, chopped onions and spicy salsa."
+      },
+      {
+        name: "1/4 Grilled Chicken with Rice and Beans",
+        price: "$14.00/pp",
+        description: "Charcoal-grilled, marinated chicken served with rice, refried beans and hot salsa."
       }
     ],
     sideSalads: [
@@ -753,6 +773,11 @@ window.CV_MENU = {
       {
         name: "Rice and Beans",
         price: "$4/pp",
+        description: ""
+      },
+      {
+        name: "Chips and Salsa",
+        price: "$2.00",
         description: ""
       }
     ],
