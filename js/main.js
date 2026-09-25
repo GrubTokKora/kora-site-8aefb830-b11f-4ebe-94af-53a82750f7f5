@@ -15,37 +15,32 @@ window.CV_MENU = {
         {
           name: "Guacamole",
           price: "$12.00",
-          description: "Mashed ripe avocados with onions, cilantro, and lime juice, served with chips."
+          description: "Mashed ripe avocados with onions, cilantro, and lime juice. Served with chips."
         },
         {
-          name: "Tostadas de Carnitas",
+          name: "Tostadas",
           price: "$10.00",
-          description: "A crispy fried corn tortilla topped with refried black beans, pork carnitas, salsa verde, lettuce, Cotija cheese and crema Mexicana."
+          description: "A crispy fried corn tortilla topped with refried beans, lettuce, shredded cheese, crema Mexicana, and meat of your choice (steak, chicken, carnitas, chicken tinga, or shrimp)"
+        },
+        {
+          name: "Flautas De Pollo",
+          price: "$12.00",
+          description: "Two crispy corn \"taquitos\" filled with chicken and spices. Served on a bed of shredded lettuce with salsa verde, black beans, onions, Cotija cheese and crema Mexicana"
         },
         {
           name: "Nachos",
           price: "$14.00",
-          description: "A mound of corn chips topped with refried black beans, jack and cheddar cheeses, pickled jalapeños, pico de gallo, guacamole and sour cream. Add chicken $2.00; add steak $3.00."
+          description: "A mound of corn chips topped with black beans, jack and cheddar cheese, pickled jalapenos, pico de gallo, guacamole, and sour cream. Add chicken or steak for extra cost."
         },
         {
-          name: "Flautas de Pollo",
-          price: "$12.00",
-          description: "Two crispy corn \"taquitos\" filled with shredded chicken and spices, served on a bed of shredded lettuce with salsa verde, black beans, onions, Cotija cheese and crema Mexicana."
-        },
-        {
-          name: "Chicharron de Cerdo",
+          name: "Chicharron De Cerdo",
           price: "$9.00",
-          description: "Pork cracklings with salsa verde and a balsamic reduction on a bed of field greens."
+          description: "Pork cracklings with salsa verde and a balsamic reduction on a bed of field greens"
         },
         {
-          name: "Gorditas de Maiz con Chicharron",
+          name: "Gorditas",
           price: "$12.00",
-          description: "Two \"thick\" corn tortillas filled with tomatillo sauce, pork crackling, Cotija cheese, lettuce, onions and crema Mexicana."
-        },
-        {
-          name: "Gorditas de Maiz con Steak",
-          price: "$12.00",
-          description: "Two \"thick\" corn tortillas filled with tomatillo sauce, steak, Cotija cheese, lettuce, onions and crema Mexicana."
+          description: "Two \"fat\" corn tortillas, your choice of plain, steak, chicken, or chicharron, filled with tomatillo sauce, queso fresco, lettuce, onions and crema mexicana"
         }
       ]
     },
@@ -57,17 +52,72 @@ window.CV_MENU = {
         {
           name: "Ensalada de la Casa",
           price: "$16.00",
-          description: "Romaine, field greens, tomatoes, red onions, carrots with our orange chipotle vinaigrette, topped with avocado. Add chicken +$4.00; grilled shrimp +$5.00; grilled salmon +$7.00."
+          description: "Mix lettuce, tomatoes, carrots, onions with a vinaigrette, topped with avocado."
         },
         {
-          name: "Ensalada Caesar",
-          price: "$17.00",
-          description: "Made with romaine hearts, queso añejo, jalapeño-croutons, diced avocado and our classic Caesar dressing. Add chicken +$4.00; steak +$5.00; grilled shrimp +$5.00; grilled salmon +$7.00."
+          name: "Ensalada de la Casa with Grilled Chicken",
+          price: "$20.00",
+          description: "House salad with avocado topped with grilled chicken."
+        },
+        {
+          name: "Ensalada de la Casa with Grilled Shrimp",
+          price: "$21.00",
+          description: "House salad with avocado topped with grilled shrimp."
+        },
+        {
+          name: "Ensalada de la Casa with Grilled Salmon",
+          price: "$23.00",
+          description: "House salad with avocado topped with grilled salmon."
         },
         {
           name: "Ensalada Mexicana",
           price: "$17.00",
-          description: "Romaine and field greens, black bean kernels, diced avocado, red onions, Cotija cheese and our fresh jalapeño-yogurt dressing. Add chicken +$4.00; steak +$5.00; grilled shrimp +$5.00; grilled salmon +$7.00."
+          description: "Romaine, field greens, roasted corn, black beans, Cotija cheese, diced avocado, tomatoes and onions, tossed with our fresh jalapeno-yogurt dressing"
+        },
+        {
+          name: "Ensalada Mexicana with Grilled Chicken",
+          price: "$21.00",
+          description: "Our Mexican Salad topped with grilled chicken."
+        },
+        {
+          name: "Ensalada Mexicana with Grilled Shrimp",
+          price: "$22.00",
+          description: "Our Mexican salad topped with grilled shrimp"
+        },
+        {
+          name: "Ensalada Mexicana with Grilled Steak",
+          price: "$22.00",
+          description: "Our Mexican salad topped with grilled steak."
+        },
+        {
+          name: "Ensalada Mexicana with Grilled Salmon",
+          price: "$24.00",
+          description: "Ensalada Mexicana topped with grilled salmon."
+        },
+        {
+          name: "Ensalada Caesar",
+          price: "$17.00",
+          description: "Romaine hearts with fresh jalapeno-croutons, diced avocado, queso anejo and our classic Caesar dressing"
+        },
+        {
+          name: "Ensalada Caesar with Grilled Chicken",
+          price: "$21.00",
+          description: "Our Caesar salad topped with grilled chicken."
+        },
+        {
+          name: "Ensalada Caesar with Grilled Shrimp",
+          price: "$22.00",
+          description: "Our Caesar salad topped with grilled shrimp."
+        },
+        {
+          name: "Ensalada Caesar with Grilled Steak",
+          price: "$22.00",
+          description: "Our Caesar salad topped with grilled steak."
+        },
+        {
+          name: "Ensalada Caesar with Grilled Salmon",
+          price: "$24.00",
+          description: "Our Caesar salad topped with grilled salmon."
         }
       ]
     },
@@ -77,114 +127,119 @@ window.CV_MENU = {
       image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097683_kubq47.jpg",
       items: [
         {
-          name: "Fajitas — Chicken",
-          price: "$21.00",
-          description: "Sizzling marinated chicken with peppers, onions and cilantro, served with rice, pinto beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
-        },
-        {
-          name: "Fajitas — Steak",
-          price: "$23.00",
-          description: "Sizzling marinated steak with peppers, onions and cilantro, served with rice, pinto beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
-        },
-        {
-          name: "Fajitas — Shrimp",
-          price: "$25.00",
-          description: "Sizzling marinated shrimp with peppers, onions and cilantro, served with rice, pinto beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
-        },
-        {
-          name: "Fajitas — All the Way (Trio)",
-          price: "$27.00",
-          description: "Sizzling marinated chicken, steak and shrimp with peppers, onions and cilantro, served with rice, pinto beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
-        },
-        {
-          name: "Fajitas Vegetarianas",
+          name: "Fajitas Vegetarian",
           price: "$20.00",
-          description: "Sautéed zucchini, yellow squash, red and green peppers, onions, and cilantro. Served with rice and beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
+          description: "Our sizzling zucchini, squash, red and green peppers, onions and cilantro, served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
         },
         {
-          name: "Pollo A La Brasa con Arroz y Frijoles",
-          price: "$14.00 / $18.00",
-          description: "Charcoal-grilled, marinated chicken served with rice, beans and salsa. Quarter chicken $14.00; half chicken $18.00."
+          name: "Fajitas Chicken",
+          price: "$21.00",
+          description: "Our sizzling marinated chicken with peppers, onions and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
         },
         {
-          name: "Camarones Enchipotlados",
-          price: "$24.00",
-          description: "Sautéed shrimp with onions and mushrooms in a chipotle-cream sauce, served with rice and beans."
+          name: "Fajitas Steak",
+          price: "$23.00",
+          description: "Our sizzling marinated steak with peppers, onions and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
         },
         {
-          name: "Chiles Rellenos con Queso",
+          name: "Fajitas Shrimp",
+          price: "$25.00",
+          description: "Our sizzling marinated shrimp with peppers, onions and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
+        },
+        {
+          name: "Fajitas Trio",
+          price: "$27.00",
+          description: "Trio of meat with peppers, onions and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
+        },
+        {
+          name: "Pollo A La Brasa (1/4 Chicken)",
+          price: "$14.00",
+          description: "Charcoal-grilled, marinated chicken served with rice, beans and salsa."
+        },
+        {
+          name: "Pollo A La Brasa (1/2 Chicken)",
           price: "$18.00",
-          description: "Two roasted poblano peppers stuffed with Oaxaca cheese only, in a light guajillo-tomato sauce, served with rice and pinto beans."
+          description: "Charcoal-grilled, marinated chicken served with rice, beans and salsa."
         },
         {
-          name: "Chiles Rellenos con Pollo y Queso",
+          name: "Shrimp In Chipotle Sauce",
+          price: "$24.00",
+          description: "Sauteed shrimp with onions and mushrooms in a chipotle-cream sauce served with rice and beans"
+        },
+        {
+          name: "Chiles Rellenos Con Queso",
+          price: "$18.00",
+          description: "Fresh roasted poblano peppers stuffed with cheese, in a guajillo-tomato sauce. Served with rice and beans"
+        },
+        {
+          name: "Chiles Rellenos Con Pollo Y Queso",
           price: "$21.00",
-          description: "Two roasted poblano peppers stuffed with chicken and Oaxaca cheese, in a light guajillo-tomato sauce, served with rice and pinto beans."
+          description: "Chicken and Cheese. Fresh roasted poblano peppers stuffed with chicken and cheese, in a guajillo-tomato sauce. Served with rice and beans"
         },
         {
-          name: "Pollo en Crema de Chipotle",
+          name: "Pollo En Crema De Chipotle",
           price: "$21.00",
-          description: "Sliced boneless breast of chicken sautéed with mushrooms and onions in a chipotle cream sauce, served with rice, beans and flour tortillas."
+          description: "Sliced boneless breast of chicken with mushrooms and onions in a chipotle cream sauce. Served with rice, beans, and flour tortillas"
         },
         {
-          name: "Chicharrón de Pollo",
+          name: "Chicharron De Pollo",
           price: "$19.00",
-          description: "Crispy fried pieces of boneless chicken (dark meat) served with salad and fried green plantains."
+          description: "Crispy fried pieces of chicken served with salad and fried green plantains"
         },
         {
-          name: "Enchiladas de Mole Poblano",
+          name: "Enchiladas De Mole Poblano",
           price: "$21.00",
-          description: "Three soft corn tortillas filled with shredded chicken, topped with our special mole sauce and melted cheese, served with rice, beans and sour cream."
+          description: "Three soft corn tortillas filled with shredded chicken, topped with our special mole sauce and grated cheese. Served with rice, beans and sour cream"
         },
         {
-          name: "Shrimp Enchiladas",
+          name: "Camarones Al Mojo De Ajo",
+          price: "$21.00",
+          description: "Sauteed shrimp in a light lime-garlic sauce, served with rice and salad"
+        },
+        {
+          name: "Camarones A La Diabla",
+          price: "$21.00",
+          description: "Sauteed shrimp in a spicy red-chile sauce. Served with rice and beans"
+        },
+        {
+          name: "Filete De Tilapia Al Ajillo",
+          price: "$21.00",
+          description: "Pan-seared tilapia with a guajillo-garlic sauce, served with rice and grilled vegetables"
+        },
+        {
+          name: "Mariscada En Salsa Verde",
           price: "$23.00",
-          description: "Three soft corn tortillas filled with shrimp sautéed with onions and tomatoes, topped with salsa verde and melted cheese, served with rice, beans and sour cream."
+          description: "A combination of seafood (clams, shrimp, calamari, crab, and mussels) sauteed with onions and tomatoes in salsa verde. Served with rice and salad."
         },
         {
-          name: "Camarones al Mojo de Ajo",
-          price: "$21.00",
-          description: "Sautéed shrimp in a light lime-garlic sauce, served with rice and salad."
-        },
-        {
-          name: "Camarones a la Diabla",
-          price: "$21.00",
-          description: "Sautéed shrimp with onions in a spicy red-chile sauce, served with rice and beans."
-        },
-        {
-          name: "Filete de Tilapia al Ajillo",
-          price: "$21.00",
-          description: "Pan-seared tilapia with a guajillo-garlic sauce, served with rice and grilled vegetables."
-        },
-        {
-          name: "Mariscada en Salsa Verde",
-          price: "$23.00",
-          description: "A combination of seafood (clams, shrimp, calamari, crab and mussels) sautéed with onions and tomatoes in salsa verde, served with rice and salad."
-        },
-        {
-          name: "Chuletas con Salpicón",
+          name: "Chuletas Con Salpicon",
           price: "$19.00",
-          description: "Two pork chops served with rice, beans, and salpicón (avocado, tomatoes, onions, and cilantro)."
+          description: "(2) Two pork chops served with rice, beans, and salpicon (avocado, tomatoes, onions, and cilantro)"
         },
         {
-          name: "Carne Asada al Carbón",
+          name: "Carne Asada Al Carbon",
           price: "$23.00",
           description: "Charcoal-grilled flap steak served with rice, beans, guacamole, sour cream, and pico de gallo."
         },
         {
-          name: "Bistec a la Mexicana",
+          name: "Bistec A La Mexicana",
           price: "$18.00",
-          description: "Tender pieces of steak with onions, tomatoes, and fresh jalapeños, served with rice and beans."
+          description: "Tender pieces of steak with onions, tomatoes, and fresh jalapenos, served with rice and beans"
         },
         {
-          name: "Villas NY Steak con Chile Poblano",
+          name: "Villas NY Steak Con Rajas De Chile Poblano",
           price: "$27.00",
-          description: "Grilled NY steak, topped with roasted poblano strips, red onions and demi-glace, served with roasted garlic-mashed potatoes and grilled vegetables."
+          description: "Grilled NY Steak, topped with roasted poblano strips. Served with roasted garlic-mashed potatoes and grilled vegetables"
+        },
+        {
+          name: "Enchiladas Shrimp",
+          price: "$23.00",
+          description: "Two soft corn tortillas filled with shrimp sautéed with onions and tomatoes, topped with salsa Verde and grated cheese, served with rice, beans and sour cream."
         },
         {
           name: "Pechuga Ranchera",
           price: "$16.00",
-          description: "Sliced boneless chicken breast sautéed with sliced onions, fresh jalapeños and cilantro, served with rice and beans."
+          description: "Sliced boneless chicken breast sauteed with sliced onions, fresh jalapenos, cilantro, served with rice and beans"
         },
         {
           name: "Cecina",
@@ -204,24 +259,24 @@ window.CV_MENU = {
       image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097653_k2f802.jpg",
       items: [
         {
-          name: "Burrito Vegetariano with Rice & Beans",
+          name: "Vegetarian Burrito with Rice & Beans",
           price: "$16.00",
-          description: "Sautéed diced zucchini, squash, onions, tomatoes, mushrooms with cheese and salsa roja. Served with rice, beans, guacamole, pico de gallo and sour cream."
+          description: "Sauteed diced zucchini, squash, onions, tomatoes, mushrooms with cheese and salsa roja. Served with rice, beans, guacamole, pico de gallo and sour cream"
         },
         {
-          name: "Burrito de Pollo with Rice & Beans",
+          name: "Burrito Chicken with Rice & Beans",
           price: "$16.00",
-          description: "Diced chicken breast sautéed with onions, tomatoes, cheese, and salsa in a flour tortilla. Served with rice and beans, guacamole, sour cream, and pico de gallo."
+          description: "Diced chicken breast sauteed with onions, tomatoes, cheese and salsa roja. Served with rice, beans, guacamole, pico de gallo and sour cream"
         },
         {
-          name: "Burrito de Bistec with Rice & Beans",
+          name: "Burrito Steak with Rice & Beans",
           price: "$16.00",
-          description: "Steak sautéed with onions, tomatoes, cheese, and salsa in a flour tortilla. Served with rice and beans, guacamole, sour cream, and pico de gallo."
+          description: "Steak sauteed with onions, tomatoes, cheese and salsa roja. Served with rice, beans, guacamole, pico de gallo and sour cream"
         },
         {
-          name: "Burrito de Camarones with Rice & Beans",
+          name: "Burrito Shrimp with Rice & Beans",
           price: "$17.00",
-          description: "Shrimp sautéed with onions, tomatoes, cheese, and salsa in a flour tortilla. Served with rice and beans, guacamole, sour cream, and pico de gallo."
+          description: "Shrimp sauteed with onions, tomatoes, cheese and salsa roja. Served with rice, beans, guacamole, pico de gallo and sour cream"
         }
       ]
     },
@@ -231,14 +286,24 @@ window.CV_MENU = {
       image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097848_cjjzrh.jpg",
       items: [
         {
-          name: "Sopa de Pollo",
-          price: "$13.00 / $17.00",
-          description: "Homestyle bone-in chicken soup with vegetables and potatoes, garnished with onions and cilantro. Served with a side of rice or corn tortillas. App $13.00; large $17.00."
+          name: "Sopa de Pollo (Small)",
+          price: "$13.00",
+          description: "Home style chicken soup garnished with chopped onions and cilantro."
         },
         {
-          name: "Sopa de Mariscos",
-          price: "$15.00 / $24.00",
-          description: "A combination of seafood (clams, shrimp, calamari, crab, and mussels) and vegetables in a red seafood broth. Served with a side of rice or corn tortillas. Small $15.00; large $24.00."
+          name: "Sopa de Pollo (Large)",
+          price: "$17.00",
+          description: "Home style chicken soup garnished with chopped onions and cilantro."
+        },
+        {
+          name: "Sopa de Mariscos (Small)",
+          price: "$15.00",
+          description: "A combination of seafood (clams, shrimp, calamari, crab, mussels) and vegetables in a red seafood broth"
+        },
+        {
+          name: "Sopa de Mariscos (Large)",
+          price: "$24.00",
+          description: "Seafood soup Entree size"
         }
       ]
     },
@@ -248,29 +313,29 @@ window.CV_MENU = {
       image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097839_2o8pjm.jpg",
       items: [
         {
-          name: "Quesadilla de Queso",
+          name: "Cheese Quesadilla",
           price: "$13.00",
-          description: "A 12-inch flour tortilla filled with Monterey and cheddar cheese, baked, and served with guacamole, pico de gallo and sour cream."
-        },
-        {
-          name: "Quesadilla de Steak",
-          price: "$16.00",
-          description: "A 12-inch flour tortilla filled with steak, Monterey and cheddar cheese, baked, and served with guacamole, pico de gallo and sour cream."
-        },
-        {
-          name: "Quesadilla de Pollo",
-          price: "$15.00",
-          description: "A 12-inch flour tortilla filled with chicken, Monterey and cheddar cheese, baked, and served with guacamole, pico de gallo and sour cream."
-        },
-        {
-          name: "Quesadilla de Camarones",
-          price: "$17.00",
-          description: "A 12-inch flour tortilla filled with shrimp, Monterey and cheddar cheese, baked, and served with guacamole, pico de gallo and sour cream."
+          description: "A 12 inch flour tortilla filled with Monterey and Cheddar cheese. Served with guacamole, sour cream and pico de gallo"
         },
         {
           name: "Quesadilla Vegetariana",
           price: "$15.00",
-          description: "A 12-inch flour tortilla filled with sautéed zucchini, squash, peppers, onions, cilantro, Monterey and cheddar cheese. Served with guacamole, sour cream and pico de gallo."
+          description: "A 12 inch flour tortilla filled with sauteed zucchini, squash, peppers, onions, cilantro, Monterey and Cheddar cheese. Served with guacamole, sour cream and pico de gallo"
+        },
+        {
+          name: "Chicken Quesadilla",
+          price: "$15.00",
+          description: "A 12 inch flour tortilla filled with your favorite chicken, Monterey and Cheddar cheese. Served with guacamole, sour cream and pico de gallo"
+        },
+        {
+          name: "Steak Quesadilla",
+          price: "$16.00",
+          description: "A 12 inch flour tortilla filled with your favorite steak, Monterey and Cheddar cheese. Served with guacamole, sour cream and pico de gallo"
+        },
+        {
+          name: "Shrimp Quesadilla",
+          price: "$17.00",
+          description: "A 12 inch flour tortilla filled with your favorite shrimp, Monterey and Cheddar cheese. Served with guacamole, sour cream and pico de gallo."
         }
       ]
     },
@@ -280,54 +345,54 @@ window.CV_MENU = {
       image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097853_t079c0.jpg",
       items: [
         {
-          name: "Tacos de Pollo",
+          name: "Taco de Pollo",
           price: "$4.00",
-          description: "Soft corn tortilla with boneless chicken breast, topped with chopped onions, cilantro, and spicy salsa."
+          description: "Chicken"
         },
         {
-          name: "Tacos de Steak",
+          name: "Taco de Bistec",
           price: "$4.00",
-          description: "Soft corn tortilla with steak, topped with chopped onions, cilantro, and spicy salsa."
+          description: "Steak"
         },
         {
-          name: "Tacos de Cecina",
+          name: "Taco de Cecina",
           price: "$4.00",
-          description: "Soft corn tortilla with aged beef, topped with chopped onions, cilantro, and spicy salsa."
+          description: "Aged Beef"
         },
         {
-          name: "Tacos de Carnitas",
+          name: "Taco de Carnitas",
           price: "$4.00",
-          description: "Soft corn tortilla with shredded pork, topped with chopped onions, cilantro, and spicy salsa."
+          description: "Shredded Pork"
         },
         {
-          name: "Tacos de Chicharrón",
+          name: "Taco de Chicharron",
           price: "$4.00",
-          description: "Soft corn tortilla with pork crackling, topped with chopped onions, cilantro, and spicy salsa."
+          description: "Pork Cracklings"
         },
         {
-          name: "Tacos de Chorizo",
+          name: "Taco de Chorizo",
           price: "$4.00",
-          description: "Soft corn tortilla with spicy Mexican sausage, topped with chopped onions, cilantro, and spicy salsa."
+          description: "Spicy Mexican Sausage"
         },
         {
-          name: "Tacos de Camarón",
+          name: "Taco de Camaron",
           price: "$4.00",
-          description: "Soft corn tortilla with shrimp, topped with chopped onions, cilantro, and spicy salsa."
+          description: "Shrimp"
         },
         {
-          name: "Tacos al Pastor",
+          name: "Taco Al Pastor",
           price: "$4.00",
-          description: "Especially marinated pork loin slowly fire-roasted and served with pieces of grilled pineapple, topped with chopped onions, cilantro, and spicy salsa."
+          description: ""
         },
         {
-          name: "3 Tacos con Arroz y Frijoles",
+          name: "Tres Tacos Con Arroz Y Frijoles",
           price: "$17.00",
-          description: "Your choice of three tacos served with rice and beans."
+          description: "Your choice of three tacos served with rice and beans. (One choice of meat please.)"
         },
         {
-          name: "3 Tacos de Pescado",
+          name: "Tres Tacos De Pescado",
           price: "$18.00",
-          description: "Three fish tacos topped with a roasted corn salsa. Served with rice and black beans."
+          description: "Three fish tacos topped with a roasted corn salsa. Served with rice and black beans"
         }
       ]
     },
@@ -339,12 +404,12 @@ window.CV_MENU = {
         {
           name: "Maduros",
           price: "$8.00",
-          description: "Fried ripe plantains."
+          description: "(Fried Ripe Plantains)"
         },
         {
           name: "Tostones",
           price: "$8.00",
-          description: "Fried green plantains."
+          description: "(Fried Green Plantains)"
         },
         {
           name: "Rice and Beans",
@@ -372,13 +437,13 @@ window.CV_MENU = {
           description: ""
         },
         {
-          name: "Chips and Salsa",
-          price: "$5.00",
+          name: "Beans",
+          price: "$3.00",
           description: ""
         },
         {
-          name: "Beans",
-          price: "$3.00",
+          name: "Chips and Salsa 3 Oz",
+          price: "$5.00",
           description: ""
         },
         {
@@ -394,19 +459,19 @@ window.CV_MENU = {
       image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097685_xn897k.jpg",
       items: [
         {
-          name: "Churros con Dulce de Leche",
-          price: "$11.00",
-          description: "Mexican doughnut sticks dusted with cinnamon sugar, served with dulce de leche (Mexican caramel)."
-        },
-        {
-          name: "Pastel de Tres Leches",
-          price: "$12.00",
-          description: "A moist, sponge-like cake soaked in three milks."
-        },
-        {
           name: "Flan",
           price: "$9.00",
-          description: "A silky vanilla-egg custard in its own caramel."
+          description: ""
+        },
+        {
+          name: "Tres Leches Cake",
+          price: "$12.00",
+          description: ""
+        },
+        {
+          name: "Churros con Dulce de Leche",
+          price: "$11.00",
+          description: ""
         }
       ]
     },
@@ -416,44 +481,69 @@ window.CV_MENU = {
       image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097672_hej78l.jpg",
       items: [
         {
-          name: "Horchata",
+          name: "Horchata Aguas Naturales",
           price: "$4.00",
-          description: "Natural rice-flavored water (aguas naturales)."
+          description: "Natural Rice- Flavored Water"
         },
         {
-          name: "Tamarindo",
+          name: "Tamarindo Aguas Naturales",
           price: "$4.00",
-          description: "Natural tamarind-flavored water (aguas naturales)."
+          description: "Natural Tamarind-Flavored Water"
         },
         {
-          name: "Jamaica",
+          name: "Jamaica Hibiscus Water",
           price: "$4.00",
-          description: "Natural hibiscus-flavored water (aguas naturales)."
+          description: "Natural Hibiscus-Flavored Water"
         },
         {
-          name: "Jarritos (Mexican Flavored Soda)",
+          name: "Bottled Coca Cola",
           price: "$4.00",
-          description: "Glass bottled Mexican flavored sodas. Choice of: lime, mandarin, tamarind, pineapple, grapefruit."
+          description: ""
         },
         {
-          name: "Diet Coke & Ginger Ale",
+          name: "Diet Coke",
           price: "$3.00",
-          description: "Diet Coke, Ginger Ale."
+          description: ""
         },
         {
-          name: "Topo Chico (Mineral Water)",
+          name: "Ginger Ale",
+          price: "$3.00",
+          description: ""
+        },
+        {
+          name: "Topo Chico (Sparkling Mineral Water)",
           price: "$5.00",
-          description: "Mexican sparkling mineral water."
+          description: ""
         },
         {
-          name: "Fruit Milk Shakes",
+          name: "Licuados",
           price: "$4.00",
-          description: "Fruit milk shakes; banana, fresa, mango (banana, strawberry, mango). Can also be made with water instead of milk."
+          description: "Fruit Milkshakes: Banana, Fresa, Mango (Banana, Strawberry, Mango)"
         },
         {
-          name: "Bottled Mexican Coca Cola",
+          name: "Jarrito (Lime)",
           price: "$4.00",
-          description: "Bottled Mexican Coke sweetened with real cane sugar."
+          description: ""
+        },
+        {
+          name: "Jarrito (Mandarin)",
+          price: "$4.00",
+          description: ""
+        },
+        {
+          name: "Jarrito (Tamarind)",
+          price: "$4.00",
+          description: ""
+        },
+        {
+          name: "Jarrito (Pineapple)",
+          price: "$4.00",
+          description: ""
+        },
+        {
+          name: "Jarrito (Grapefruit)",
+          price: "$4.00",
+          description: ""
         }
       ]
     }
@@ -463,167 +553,167 @@ window.CV_MENU = {
     {
       name: "Fajitas Vegetarian",
       price: "$16.00",
-      description: "Sautéed zucchini, yellow squash, onions, red and green peppers, mushrooms, served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
+      description: "Sliced Zucchini, yellow squash, onions, red and green peppers, mushrooms, served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream, and flour tortillas"
     },
     {
       name: "Fajitas de Pollo",
       price: "$16.00",
-      description: "Our marinated chicken with peppers, onions, and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream, and flour tortillas."
+      description: "Our marinated chicken with peppers, onions, and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream, and flour tortillas"
     },
     {
       name: "Fajitas Chicken & Steak",
       price: "$18.00",
-      description: "Our marinated chicken and steak with peppers, onions, and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
+      description: "Our marinated chicken and Steak with peppers, onions, and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream, and flour tortillas"
     },
     {
       name: "Fajitas Steak",
       price: "$17.00",
-      description: "Our marinated steak with peppers, onions, and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo and flour tortillas."
+      description: "Our marinated steak with peppers, onions, and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, and flour tortillas"
     },
     {
       name: "Fajitas Shrimp",
       price: "$19.00",
-      description: "Our marinated shrimp with peppers, onions, and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
+      description: "Our marinated shrimp with peppers, onions, and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream, and flour tortillas"
     },
     {
       name: "Fajitas Trio",
       price: "$23.00",
-      description: "Our marinated chicken, steak and shrimp with peppers, onions and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
+      description: "Trio of meat with peppers, onions and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas."
     },
     {
       name: "Chicken Enchiladas (de Pollo)",
       price: "$16.00",
-      description: "Two corn tortillas filled with shredded chicken, topped with our mole sauce and melted cheese, served with rice, beans and sour cream."
+      description: "(2) Two chicken enchiladas with rice, beans, and sour cream"
     },
     {
       name: "Shrimp Enchiladas (de Camaron)",
       price: "$17.00",
-      description: "Two soft corn tortillas filled with shrimp sautéed with onions and tomatoes, topped with salsa verde and melted cheese, served with rice, beans and sour cream."
-    },
-    {
-      name: "Chicken and Cheese Chile Relleno",
-      price: "$16.00",
-      description: "One roasted poblano pepper stuffed with chicken & cheese, in a guajillo-tomato sauce, served with rice and beans."
+      description: "Two soft corn tortillas filled with shrimp sautéed with onions and tomatoes, topped with salsa Verde and grated cheese, served with rice, beans and sour cream."
     },
     {
       name: "Cheese Chile Relleno (de Queso)",
       price: "$15.00",
-      description: "One fresh roasted poblano pepper stuffed with Oaxaca cheese, in a guajillo-tomato sauce, served with rice and beans."
+      description: "One fresh roasted poblano pepper stuffed with cheese, in a guajillo-tomato sauce. Served with rice and beans"
+    },
+    {
+      name: "Chicken and Cheese Chile Relleno",
+      price: "$16.00",
+      description: "One roasted Poblano pepper stuffed with cheese, in a guajillo-tomato sauce. Served with rice and beans"
     },
     {
       name: "Porkchop with Salpicon",
       price: "$16.00",
-      description: "One pork chop topped with salpicon (diced avocado, tomatoes, onions, jalapeños, cilantro) served with rice and beans."
-    },
-    {
-      name: "Chicken in Chipotle-Cream Sauce",
-      price: "$18.00",
-      description: "Sliced boneless breast of chicken sautéed with mushrooms and onions in a chipotle cream sauce, served with rice, beans and flour tortillas."
-    },
-    {
-      name: "Pechuga de Pollo Ranchera Lunch",
-      price: "$16.00",
-      description: "Boneless breast of chicken sautéed with onions, tomatoes, and fresh jalapeños. Served with rice, beans, and corn tortillas."
-    },
-    {
-      name: "Shrimp al Mojo de Ajo",
-      price: "$17.00",
-      description: "Sautéed shrimp with diced tomatoes, onions in a light lime-garlic sauce, served with rice and salad."
-    },
-    {
-      name: "Shrimp in Chipotle-Cream Sauce",
-      price: "$18.00",
-      description: "Sautéed shrimp with onions and mushrooms in a chipotle cream sauce, served with rice and beans."
-    },
-    {
-      name: "Jumbo Shrimp a la Diabla",
-      price: "$17.00",
-      description: "Sautéed shrimp with sliced onions in a spicy red chili sauce, served with rice and beans."
-    },
-    {
-      name: "Tilapia in Guajillo-Garlic Sauce",
-      price: "$18.00",
-      description: "Pan-seared tilapia with a guajillo-garlic-lemon-butter sauce, served with rice and grilled vegetables."
-    },
-    {
-      name: "Carne Asada",
-      price: "$19.00",
-      description: "Marinated charcoal-grilled steak served with rice, beans, lettuce, guacamole, sour cream and pico de gallo."
-    },
-    {
-      name: "Bistec a la Mexicana",
-      price: "$17.00",
-      description: "Tender pieces of steak with onions, tomatoes, and fresh jalapeños, served with rice and beans."
-    },
-    {
-      name: "Vegetarian Burrito Plain",
-      price: "$12.00",
-      description: "Plain, with no rice or beans. Zucchini, squash, red and green peppers sautéed with onions, tomatoes, cheese and salsa roja. Served with guacamole, pico de gallo and sour cream."
-    },
-    {
-      name: "Chicken Burrito Plain",
-      price: "$14.00",
-      description: "Plain, without rice or beans. Diced chicken sautéed with onions, tomatoes, cheese, and salsa roja, served with guacamole, pico de gallo and sour cream."
-    },
-    {
-      name: "Shrimp Burrito Plain",
-      price: "$16.00",
-      description: "Plain, without rice or beans. Shrimp sautéed with onions, tomatoes, cheese, and salsa roja, served with guacamole, pico de gallo and sour cream."
-    },
-    {
-      name: "Steak Burrito Plain",
-      price: "$15.00",
-      description: "Plain, without rice or beans. Steak sautéed with onions, tomatoes, cheese, and salsa roja. Served with guacamole, pico de gallo and sour cream."
+      description: "(1) One pork chop topped with salpicon (diced avocado, tomatoes, onions, jalapenos, cilantro) served with rice and beans"
     },
     {
       name: "Dos Tacos con Arroz y Frijoles",
       price: "$14.00",
-      description: "Two tacos with rice and beans."
+      description: "(2) Tacos with rice and beans"
     },
     {
       name: "Fish Tacos",
       price: "$16.00",
-      description: "Two fish tacos topped with a roasted corn-avocado salsa, served with rice and black beans."
+      description: "Two fish tacos topped with a roasted corn salsa, served with rice and black beans"
+    },
+    {
+      name: "Chicken in Chipotle-Cream Sauce",
+      price: "$18.00",
+      description: "Sliced boneless breast of chicken with mushrooms and onions in a chipotle cream sauce. Served with rice, beans, and flour tortillas"
+    },
+    {
+      name: "Shrimp al Mojo de Ajo",
+      price: "$17.00",
+      description: "Sauteed shrimp with diced tomatoes, onions in a light lime-garlic sauce, served with rice and salad"
+    },
+    {
+      name: "Jumbo Shrimp a la Diabla",
+      price: "$17.00",
+      description: "Sauteed shrimp with sliced onions in a spicy red chili sauce, served with rice and beans"
+    },
+    {
+      name: "Shrimp in Chipotle-Cream Sauce",
+      price: "$18.00",
+      description: "Sauteed shrimp with onions and mushrooms in a chipotle-cream sauce. Served with rice and beans"
+    },
+    {
+      name: "Tilapia in Guajillo-Garlic Sauce",
+      price: "$18.00",
+      description: "Pan-seared tilapia with a guajillo-garlic-Lemon-Butter sauce, served with rice and grilled vegetables"
+    },
+    {
+      name: "Carne Asada",
+      price: "$19.00",
+      description: "Marinated charcoal-grilled steak served with rice, beans, lettuce, guacamole, sour cream and Pico de gallo"
+    },
+    {
+      name: "Bistec a la Mexicana",
+      price: "$17.00",
+      description: "Tender pieces of steak with onions, tomatoes, and fresh jalapenos, served with rice and beans"
+    },
+    {
+      name: "Vegetarian Burrito Plain",
+      price: "$12.00",
+      description: "Plain, with no rice or beans. Zucchini, squash, red and green peppers sauteed with onions, tomatoes, cheese and salsa roja. Served with guacamole, pico de gallo and sour cream"
+    },
+    {
+      name: "Chicken Burrito Plain",
+      price: "$14.00",
+      description: "Plain, without rice or beans. Your favorite chicken sauteed with onions, tomatoes, cheese, and salsa roja. Served with guacamole, pico de gallo, and sour cream."
+    },
+    {
+      name: "Steak Burrito Plain",
+      price: "$15.00",
+      description: "Plain, without rice or beans. Steak sauteed with onions, tomatoes, cheese, and salsa roja. Served with guacamole, pico de gallo, and sour cream"
+    },
+    {
+      name: "Shrimp Burrito Plain",
+      price: "$16.00",
+      description: "Plain, without rice or beans. Shrimp sauteed with onions, tomatoes, cheese, and salsa roja. Served with guacamole, pico de gallo, and sour cream"
     },
     {
       name: "Chilaquiles de Pollo",
       price: "$14.00",
-      description: "Diced chicken breast sautéed with onions, tomatoes and salsa roja, mixed with softened corn chips, topped with jack and cheddar cheese, pico de gallo, sour cream and sliced red onions."
+      description: "Diced chicken breast sauteed with onions, tomatoes and salsa roja, mixed with corn chips, topped with jack and cheddar cheeses, pico de gallo, sour cream and sliced red onions"
     },
     {
       name: "Chilaquiles de Steak",
       price: "$15.00",
-      description: "Steak sautéed with onions, tomatoes and salsa roja, mixed with softened corn chips, topped with jack and cheddar cheese, pico de gallo, sour cream and sliced red onions."
+      description: "Steak sauteed with onions, tomatoes and salsa roja, mixed with corn chips, topped with jack and cheddar cheeses, pico de gallo, sour cream and sliced red onions"
     },
     {
       name: "Chilaquiles de Camarón",
       price: "$16.00",
-      description: "Shrimp sautéed with onions, tomatoes and salsa roja, mixed with softened corn chips, topped with jack and cheddar cheese, pico de gallo, sour cream and sliced red onions."
+      description: "Shrimp, sauteed with onions, tomatoes and salsa roja, mixed with corn chips, topped with jack and cheddar cheeses, pico de gallo, sour cream and sliced red onions"
     },
     {
       name: "Huevos Rancheros",
       price: "$15.00",
-      description: "Three corn tortillas topped with black beans, two fried eggs, melted cheese, salsa verde, Cotija cheese and crema mexicana."
+      description: "Three corn tortillas topped with black beans, two fried eggs, melted cheese, salsa verde, Cotija cheese and crema mexicana"
     },
     {
       name: "Torta de Milanesa de Pollo",
       price: "$14.00",
-      description: "Breaded chicken breast with lettuce, tomatoes, red onions, black beans, pickled jalapeños, avocado, queso fresco in a Mexican hard roll."
+      description: "Breaded chicken breast with lettuce, tomatoes, red onions, black beans, pickled jalapenos, avocado, queso fresco in a \"Mexican hard roll\""
     },
     {
       name: "Torta de Milanesa de Bistec",
       price: "$14.00",
-      description: "Breaded steak with lettuce, tomatoes, red onions, black beans, pickled jalapeños, avocado, queso fresco in a Mexican hard roll."
+      description: "Breaded steak with lettuce, tomatoes, red onions, black beans, pickled jalapenos, avocado, queso fresco in a \"Mexican hard roll\""
     },
     {
       name: "Torta de Tinga de Pollo",
       price: "$14.00",
-      description: "Tinga (shredded chicken with spices), lettuce, tomatoes, red onions, black beans, pickled jalapeños, avocado, queso fresco in a Mexican hard roll."
+      description: "Tinga (Shredded chicken with spices) lettuce, tomatoes, red onions, black beans, pickled jalapenos, avocado, queso fresco in a \"Mexican hard roll\""
     },
     {
       name: "Torta de Bistec",
       price: "$14.00",
-      description: "Steak, lettuce, tomatoes, red onions, black beans, pickled jalapeños, avocado, queso fresco in a Mexican hard roll."
+      description: "Steak, lettuce, tomatoes, red onions, black beans, pickled jalapenos, avocado, queso fresco in a \"Mexican hard roll\""
+    },
+    {
+      name: "Pechuga de Pollo Ranchera Lunch",
+      price: "$16.00",
+      description: "Sliced boneless chicken breast sauteed with sliced onions, fresh jalapenos, cilantro, served with rice and beans"
     }
   ],
 
