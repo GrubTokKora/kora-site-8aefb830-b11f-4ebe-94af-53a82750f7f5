@@ -33,6 +33,11 @@ window.CV_MENU = {
           description: "Two crispy corn \"taquitos\" filled with shredded chicken and spices, served on a bed of shredded lettuce with salsa verde, black beans, onions, Cotija cheese and crema Mexicana."
         },
         {
+          name: "Chicharron de Cerdo",
+          price: "$9.00",
+          description: "Pork cracklings with salsa verde and a balsamic reduction on a bed of field greens."
+        },
+        {
           name: "Gorditas de Maiz con Chicharron",
           price: "$12.00",
           description: "Two \"thick\" corn tortillas filled with tomatillo sauce, pork crackling, Cotija cheese, lettuce, onions and crema Mexicana."
