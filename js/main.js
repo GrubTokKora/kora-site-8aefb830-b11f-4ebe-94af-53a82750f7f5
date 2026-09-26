@@ -59,7 +59,7 @@ window.CV_MENU = {
     {
       id: "vegetarian",
       name: "Vegetarian Corner",
-      image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097683_kubq47.jpg",
+      image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097839_2o8pjm.jpg",
       items: [
         { name: "Vegetarian Enchiladas", price: "$23", description: "Three soft corn tortillas filled with sautéed zucchini, squash, tomatoes, onions, mushrooms, topped with salsa verde, shredded cheese served with rice, beans and sour cream" },
         { name: "Vegetarian Burrito", price: "$19", description: "Sautéed zucchini, squash, tomatoes, onions, mushrooms, cheese, and red spicy salsa served with rice, beans, guacamole, sour cream and pico de gallo" },
