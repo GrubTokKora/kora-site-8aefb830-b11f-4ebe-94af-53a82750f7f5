@@ -133,49 +133,146 @@ window.CV_MENU = {
     }
   ],
 
-  lunch: [
-    { name: "Guacamole", price: "$14", description: "Mashed ripe avocados with onions, cilantro, fresh lime" },
-    { name: "Tostadas", price: "", description: "A crispy-fried corn tortilla topped with refried black beans, salsa verde, lettuce, chopped onions, Cotija cheese & crema Mexicana. Tinga (Shredded-Chicken) $12 · Pork Carnitas $12 · Shrimp $15" },
-    { name: "Flautas", price: "$14", description: "Two crispy corn tortilla \"taquitos\" filled with shredded chicken and spices, served on a bed of shredded lettuce, black beans, onions, tomatillo sauce, Cotija cheese and crema Mexicana" },
-    { name: "Nachos", price: "$16", description: "A mound of corn chips topped with refried black beans, jack and cheddar cheese, pickled jalapeños, guacamole, pico de gallo and sour cream. Add: Chicken +$2 · Steak +$3" },
-    { name: "Corn Gorditas", price: "$14", description: "Two \"thick\" corn tortillas filled with tomatillo sauce, Cotija cheese, lettuce, onions and crema Mexicana. Choose one: Chicken, Steak, Pork Cracklings" },
-    { name: "Queso Fundido con Chorizo, Poblanos y Hongos", price: "$14", description: "Mexican cheese fondue with roasted Poblano peppers, mushrooms, tomatoes, onions and Mexican spicy sausage, served with flour tortillas" },
-    { name: "Tacos", price: "$5", description: "Soft corn tortillas topped with chopped onions, cilantro and spicy salsa. Chicken · Steak · Carnitas (Shredded Pork) · Cecina (Aged Beef) · Pork Cracklings · Shrimp · Chorizo (Spicy Mexican Sausage)" },
-    { name: "Tacos Al Pastor", price: "$5", description: "Our especially marinated pork loin, slowly fire-roasted, served with pieces of grilled pineapple" },
-    { name: "Veal Tongue Taco", price: "$7", description: "" },
-    { name: "Tacos de Birria", price: "$23", description: "Three Birria tacos with melted cheese, onions and cilantro, served with a side of birria broth, rice and beans" },
-    { name: "Two Tacos with Rice and Beans", price: "$14", description: "Any two tacos (tongue tacos $19) served with rice and beans" },
-    { name: "Two Fish Tacos", price: "$19", description: "Two fish tacos topped with a roasted corn avocado salsa, served with rice and black beans" },
-    { name: "Sopa de Pollo", price: "", description: "Home style chicken soup garnished with chopped onions and cilantro. Served with a side of rice or corn tortillas. Appetizer $13 · Entrée $17" },
-    { name: "Sopa de Mariscos", price: "", description: "A mélange of fresh seafood in a red seafood broth. Served with a side of rice or corn tortillas. Appetizer $17 · Entrée $27" },
-    { name: "Mondongo (Sopa de Pancita)", price: "", description: "Tripe soup with potatoes in a mild red chile broth. Served with a side of rice or corn tortillas. Appetizer $14 · Entrée $19" },
-    { name: "Sopa de Res (Beef Soup)", price: "", description: "Home-Style beef soup with potatoes, carrots, onions and celery. Served with a side of rice or corn tortillas. Appetizer $15 · Entrée $21" },
-    { name: "Ensalada de la Casa", price: "$16", description: "Romaine, field greens, tomatoes, red onions, carrots with our orange-chipotle vinaigrette, topped with avocado. Add: Chicken +$5 · Grilled Shrimp +$7 · Grilled Salmon +$10" },
-    { name: "Ensalada Mexicana", price: "$17", description: "Romaine, field greens, roasted corn, black beans, diced avocado, red onions, Cotija cheese and our low fat fresh jalapeño-yogurt dressing. Add: Chicken +$5 · Steak +$6 · Grilled Shrimp +$7 · Grilled Salmon +$10" },
-    { name: "Fajitas", price: "", description: "Our sizzling marinated meats with peppers, onions, and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas. Chicken $18 · Steak $19 · Shrimp $22 · All the Way (Trio) $25" },
-    { name: "Mole Chicken Enchiladas", price: "$18", description: "Three soft corn tortillas filled with shredded chicken, topped with our special mole sauce, melted cheese, served with rice, beans, and sour cream" },
-    { name: "Shrimp Enchiladas", price: "$19", description: "Three soft corn tortillas filled with sautéed shrimp, onions and tomatoes topped with salsa verde, melted cheese, served with rice, beans and sour cream" },
-    { name: "Chile Relleno", price: "", description: "Fresh roasted poblano peppers stuffed with chicken and Oaxaca cheese, or Oaxaca cheese only, in a guajillo-tomato sauce, served with rice and beans. With Chicken and Cheese $19 · With Cheese Only $17" },
-    { name: "Quesadillas", price: "", description: "A flour tortilla filled with cheddar and jack cheese and your favorite filling. Served with guacamole, pico de gallo and sour cream. Shrimp $19 · Chicken $17 · Steak $18 · Cheese Only $15" },
-    { name: "Burritos", price: "", description: "Your favorite meat sautéed with onions, tomatoes, cheese and salsa roja, served with rice and beans, guacamole, pico de gallo and sour cream. Chicken $17 · Steak $17 · Shrimp $19" },
-    { name: "Burrito Bowl", price: "", description: "Mexican rice, black beans, sweet corn, avocado, queso fresco, pico de gallo, guacamole with a chile-lime crema (all the flavor of the burrito minus the tortilla). W/ Asada Steak $18 · W/ Grilled Chicken $17" },
-    { name: "Chilaquiles", price: "", description: "Your favorite meat sautéed with onions, tomatoes and salsa roja, mixed with corn chips, topped with jack and cheddar cheese, pico de gallo, sour cream, sliced red onions, Cotija cheese. Chicken $16 · Steak $17 · Shrimp $19" },
-    { name: "Salmón Veracruz", price: "$24", description: "Grilled salmon fillet with Veracruz sauce (green olives, capers, tomatoes, onions, lime-butter). Served with grilled vegetables and roasted garlic-mashed potatoes" },
-    { name: "Shrimp in Chipotle Cream", price: "$22", description: "Jumbo shrimp with mushrooms and onions in a chipotle-cream sauce, served with rice and beans" },
-    { name: "Shrimp in Garlic Sauce", price: "$20", description: "Sautéed shrimp with tomatoes & onions in a light lime-garlic sauce, served with rice and salad" },
-    { name: "Shrimp a la Diabla", price: "$20", description: "Sautéed shrimp with sliced onions in a spicy red-chili sauce, served with rice and beans" },
-    { name: "Carne Asada", price: "$21", description: "Charcoal-grilled marinated flap meat, served with rice, beans, lettuce, guacamole, sour cream and pico de gallo" },
-    { name: "Grilled Pork Chop", price: "$18", description: "Charcoal-grilled pork chop topped with a guajillo-adobo sauce, served with rice and pinto beans" },
-    { name: "Bistec a la Mexicana", price: "$19", description: "Tender pieces of steak with sautéed onions, tomatoes and fresh jalapeños, served with rice and beans" },
-    { name: "Pollo a la Brasa con Arroz y Frijoles", price: "", description: "Charcoal-grilled, marinated chicken served with rice, beans and salsa. 1/4 Chicken $14 · 1/2 Chicken $19" },
-    { name: "Pechuga Ranchera", price: "$18", description: "Grilled chicken breast topped with ranchera sauce, served with rice and beans" },
-    { name: "Chicken in Chipotle Sauce", price: "$21", description: "Sliced boneless breast of chicken with sautéed mushrooms and onions in a chipotle-cream sauce, served with rice, beans, and flour tortillas" },
-    { name: "Tortas (Mexican Sandwiches)", price: "$16", description: "Breaded Chicken · Breaded Steak · Shredded Chicken · Grilled Steak" },
-    { name: "Vegetarian Burrito", price: "$19", description: "Sautéed zucchini, squash, tomatoes, onions, mushrooms, cheese, and red spicy salsa served with rice, beans, guacamole, sour cream and pico de gallo" },
-    { name: "Vegetarian Fajitas", price: "$22", description: "Our sizzling marinated zucchini, yellow squash, mushrooms, onions and peppers and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas" },
-    { name: "Vegetarian Quesadillas", price: "$18", description: "A 12-inch flour tortilla filled with Monterrey and cheddar cheese, zucchini, tomatoes, onions, mushrooms and squash, served with guacamole, pico de gallo and sour cream" },
-    { name: "Huevos Rancheros", price: "$18", description: "Eggs served on a corn tortilla with ranchera sauce, rice and beans" }
-  ],
+  lunch: {
+    "For the Table": [
+      { name: "Guacamole", price: "$14", description: "Mashed ripe avocados with onions, cilantro, fresh lime" },
+      { name: "Tostadas", price: "", description: "A crispy-fried corn tortilla topped with refried black beans, salsa verde, lettuce, chopped onions, Cotija cheese & crema Mexicana. Tinga (Shredded-Chicken) $12 · Pork Carnitas $12 · Shrimp $15" },
+      { name: "Flautas", price: "$14", description: "Two crispy corn tortilla \"taquitos\" filled with shredded chicken and spices, served on a bed of shredded lettuce, black beans, onions, tomatillo sauce, Cotija cheese and crema Mexicana" },
+      { name: "Nachos", price: "$16", description: "A mound of corn chips topped with refried black beans, jack and cheddar cheese, pickled jalapeños, guacamole, pico de gallo and sour cream. Add: Chicken +$2 · Steak +$3" },
+      { name: "Corn Gorditas", price: "$14", description: "Two \"thick\" corn tortillas filled with tomatillo sauce, Cotija cheese, lettuce, onions and crema Mexicana. Choose one: Chicken, Steak, Pork Cracklings" },
+      { name: "Queso Fundido con Chorizo, Poblanos y Hongos", price: "$14", description: "Mexican cheese fondue with roasted Poblano peppers, mushrooms, tomatoes, onions and Mexican spicy sausage, served with flour tortillas" }
+    ],
+    "Tacos": [
+      { name: "Tacos", price: "$5", description: "Soft corn tortillas topped with chopped onions, cilantro and spicy salsa. Chicken · Steak · Carnitas (Shredded Pork) · Cecina (Aged Beef) · Pork Cracklings · Shrimp · Chorizo (Spicy Mexican Sausage)" },
+      { name: "Tacos Al Pastor", price: "$5", description: "Our especially marinated pork loin, slowly fire-roasted, served with pieces of grilled pineapple" },
+      { name: "Veal Tongue Taco", price: "$7", description: "" },
+      { name: "Tacos de Birria", price: "$23", description: "Three Birria tacos with melted cheese, onions and cilantro, served with a side of birria broth, rice and beans" },
+      { name: "Two Tacos with Rice and Beans", price: "$14", description: "Any two tacos (tongue tacos $19) served with rice and beans" },
+      { name: "Two Fish Tacos", price: "$19", description: "Two fish tacos topped with a roasted corn avocado salsa, served with rice and black beans" }
+    ],
+    "Soups": [
+      { name: "Sopa de Pollo", price: "", description: "Home style chicken soup garnished with chopped onions and cilantro. Served with a side of rice or corn tortillas. Appetizer $13 · Entrée $17" },
+      { name: "Sopa de Mariscos", price: "", description: "A mélange of fresh seafood in a red seafood broth. Served with a side of rice or corn tortillas. Appetizer $17 · Entrée $27" },
+      { name: "Mondongo (Sopa de Pancita)", price: "", description: "Tripe soup with potatoes in a mild red chile broth. Served with a side of rice or corn tortillas. Appetizer $14 · Entrée $19" },
+      { name: "Sopa de Res (Beef Soup)", price: "", description: "Home-Style beef soup with potatoes, carrots, onions and celery. Served with a side of rice or corn tortillas. Appetizer $15 · Entrée $21" }
+    ],
+    "From the Garden": [
+      { name: "Ensalada de la Casa", price: "$16", description: "Romaine, field greens, tomatoes, red onions, carrots with our orange-chipotle vinaigrette, topped with avocado. Add: Chicken +$5 · Grilled Shrimp +$7 · Grilled Salmon +$10" },
+      { name: "Ensalada Mexicana", price: "$17", description: "Romaine, field greens, roasted corn, black beans, diced avocado, red onions, Cotija cheese and our low fat fresh jalapeño-yogurt dressing. Add: Chicken +$5 · Steak +$6 · Grilled Shrimp +$7 · Grilled Salmon +$10" }
+    ],
+    "Chef's Specials": [
+      { name: "Fajitas", price: "", description: "Our sizzling marinated meats with peppers, onions, and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas. Chicken $18 · Steak $19 · Shrimp $22 · All the Way (Trio) $25" },
+      { name: "Mole Chicken Enchiladas", price: "$18", description: "Three soft corn tortillas filled with shredded chicken, topped with our special mole sauce, melted cheese, served with rice, beans, and sour cream" },
+      { name: "Shrimp Enchiladas", price: "$19", description: "Three soft corn tortillas filled with sautéed shrimp, onions and tomatoes topped with salsa verde, melted cheese, served with rice, beans and sour cream" },
+      { name: "Chile Relleno", price: "", description: "Fresh roasted poblano peppers stuffed with chicken and Oaxaca cheese, or Oaxaca cheese only, in a guajillo-tomato sauce, served with rice and beans. With Chicken and Cheese $19 · With Cheese Only $17" },
+      { name: "Quesadillas", price: "", description: "A flour tortilla filled with cheddar and jack cheese and your favorite filling. Served with guacamole, pico de gallo and sour cream. Shrimp $19 · Chicken $17 · Steak $18 · Cheese Only $15" },
+      { name: "Burritos", price: "", description: "Your favorite meat sautéed with onions, tomatoes, cheese and salsa roja, served with rice and beans, guacamole, pico de gallo and sour cream. Chicken $17 · Steak $17 · Shrimp $19" },
+      { name: "Burrito Bowl", price: "", description: "Mexican rice, black beans, sweet corn, avocado, queso fresco, pico de gallo, guacamole with a chile-lime crema (all the flavor of the burrito minus the tortilla). W/ Asada Steak $18 · W/ Grilled Chicken $17" },
+      { name: "Chilaquiles", price: "", description: "Your favorite meat sautéed with onions, tomatoes and salsa roja, mixed with corn chips, topped with jack and cheddar cheese, pico de gallo, sour cream, sliced red onions, Cotija cheese. Chicken $16 · Steak $17 · Shrimp $19" }
+    ],
+    "From the Sea": [
+      { name: "Salmón Veracruz", price: "$24", description: "Grilled salmon fillet with Veracruz sauce (green olives, capers, tomatoes, onions, lime-butter). Served with grilled vegetables and roasted garlic-mashed potatoes" },
+      { name: "Shrimp in Chipotle Cream", price: "$22", description: "Jumbo shrimp with mushrooms and onions in a chipotle-cream sauce, served with rice and beans" },
+      { name: "Shrimp in Garlic Sauce", price: "$20", description: "Sautéed shrimp with tomatoes & onions in a light lime-garlic sauce, served with rice and salad" },
+      { name: "Shrimp a la Diabla", price: "$20", description: "Sautéed shrimp with sliced onions in a spicy red-chili sauce, served with rice and beans" }
+    ],
+    "On the Land": [
+      { name: "Carne Asada", price: "$21", description: "Charcoal-grilled marinated flap meat, served with rice, beans, lettuce, guacamole, sour cream and pico de gallo" },
+      { name: "Grilled Pork Chop", price: "$18", description: "Charcoal-grilled pork chop topped with a guajillo-adobo sauce, served with rice and pinto beans" },
+      { name: "Bistec a la Mexicana", price: "$19", description: "Tender pieces of steak with sautéed onions, tomatoes and fresh jalapeños, served with rice and beans" },
+      { name: "Pollo a la Brasa con Arroz y Frijoles", price: "", description: "Charcoal-grilled, marinated chicken served with rice, beans and salsa. 1/4 Chicken $14 · 1/2 Chicken $19" },
+      { name: "Pechuga Ranchera", price: "$18", description: "Grilled chicken breast topped with ranchera sauce, served with rice and beans" },
+      { name: "Chicken in Chipotle Sauce", price: "$21", description: "Sliced boneless breast of chicken with sautéed mushrooms and onions in a chipotle-cream sauce, served with rice, beans, and flour tortillas" },
+      { name: "Tortas (Mexican Sandwiches)", price: "$16", description: "Breaded Chicken · Breaded Steak · Shredded Chicken · Grilled Steak" }
+    ],
+    "Vegetarian Corner": [
+      { name: "Vegetarian Burrito", price: "$19", description: "Sautéed zucchini, squash, tomatoes, onions, mushrooms, cheese, and red spicy salsa served with rice, beans, guacamole, sour cream and pico de gallo" },
+      { name: "Vegetarian Fajitas", price: "$22", description: "Our sizzling marinated zucchini, yellow squash, mushrooms, onions and peppers and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas" },
+      { name: "Vegetarian Quesadillas", price: "$18", description: "A 12-inch flour tortilla filled with Monterrey and cheddar cheese, zucchini, tomatoes, onions, mushrooms and squash, served with guacamole, pico de gallo and sour cream" },
+      { name: "Huevos Rancheros", price: "$18", description: "Eggs served on a corn tortilla with ranchera sauce, rice and beans" }
+    ],
+    "Sides": [
+      { name: "Fried Sweet Plantains", price: "$8", description: "" },
+      { name: "Fried Green Plantains", price: "$8", description: "" },
+      { name: "Rice and Beans", price: "$6", description: "" },
+      { name: "Black Beans", price: "$4", description: "" },
+      { name: "Guacamole 3oz", price: "$4", description: "" },
+      { name: "Sour Cream", price: "$2", description: "" }
+    ]
+  },
+
+  drinks: {
+    "Margaritas": [
+      { name: "Classic Margarita", price: "$14", description: "Tequila, triple sec, fresh lime juice — on the rocks or frozen" },
+      { name: "Cadillac Margarita", price: "$18", description: "Patrón Silver, Grand Marnier, fresh lime juice" },
+      { name: "Spicy Margarita", price: "$16", description: "Tequila, triple sec, fresh lime juice, jalapeño, Tajín rim" },
+      { name: "Skinny Margarita", price: "$15", description: "Tequila, fresh lime juice, agave nectar" },
+      { name: "Mango Margarita", price: "$15", description: "Tequila, triple sec, mango purée, fresh lime juice" },
+      { name: "Strawberry Margarita", price: "$15", description: "Tequila, triple sec, strawberry purée, fresh lime juice" },
+      { name: "Passion Fruit Margarita", price: "$15", description: "Tequila, triple sec, passion fruit purée, fresh lime juice" },
+      { name: "Tamarind Margarita", price: "$15", description: "Tequila, triple sec, tamarind purée, fresh lime juice" },
+      { name: "Pitcher of Margaritas", price: "$50", description: "Serves 4–5 guests" }
+    ],
+    "Tequila": [
+      { name: "Casa Villa Blanco", price: "$10", description: "" },
+      { name: "Casa Villa Reposado", price: "$11", description: "" },
+      { name: "Patrón Silver", price: "$14", description: "" },
+      { name: "Patrón Reposado", price: "$15", description: "" },
+      { name: "Patrón Añejo", price: "$17", description: "" },
+      { name: "Don Julio Blanco", price: "$14", description: "" },
+      { name: "Don Julio Reposado", price: "$15", description: "" },
+      { name: "Don Julio Añejo", price: "$17", description: "" },
+      { name: "Don Julio 1942", price: "$35", description: "" },
+      { name: "Clase Azul Reposado", price: "$45", description: "" },
+      { name: "Casamigos Blanco", price: "$14", description: "" },
+      { name: "Casamigos Reposado", price: "$15", description: "" },
+      { name: "Casamigos Añejo", price: "$17", description: "" }
+    ],
+    "Mojitos": [
+      { name: "Classic Mojito", price: "$14", description: "White rum, fresh mint, lime juice, sugar, soda" },
+      { name: "Mango Mojito", price: "$15", description: "White rum, mango purée, fresh mint, lime juice" },
+      { name: "Strawberry Mojito", price: "$15", description: "White rum, strawberry purée, fresh mint, lime juice" },
+      { name: "Passion Fruit Mojito", price: "$15", description: "White rum, passion fruit purée, fresh mint, lime juice" }
+    ],
+    "Mixed Drinks": [
+      { name: "Michelada", price: "$12", description: "Mexican beer, lime juice, assorted sauces, spices, Tajín rim" },
+      { name: "Paloma", price: "$14", description: "Tequila, grapefruit soda, fresh lime juice, salt rim" },
+      { name: "Piña Colada", price: "$14", description: "White rum, coconut cream, pineapple juice" },
+      { name: "Sangria (Glass)", price: "$12", description: "Red wine, brandy, fresh fruit, orange juice" },
+      { name: "Sangria (Pitcher)", price: "$40", description: "Serves 4–5 guests" }
+    ],
+    "Cervezas (Beer)": [
+      { name: "Corona", price: "$7", description: "" },
+      { name: "Corona Light", price: "$7", description: "" },
+      { name: "Modelo Especial", price: "$7", description: "" },
+      { name: "Negra Modelo", price: "$7", description: "" },
+      { name: "Dos Equis Lager", price: "$7", description: "" },
+      { name: "Dos Equis Amber", price: "$7", description: "" },
+      { name: "Pacifico", price: "$7", description: "" },
+      { name: "Tecate", price: "$7", description: "" },
+      { name: "Victoria", price: "$7", description: "" },
+      { name: "Heineken", price: "$7", description: "" },
+      { name: "Bud Light", price: "$6", description: "" },
+      { name: "Coors Light", price: "$6", description: "" },
+      { name: "Bucket of Beer (5)", price: "$30", description: "Five bottles of your choice" }
+    ],
+    "Vinos (Wine)": [
+      { name: "House Red (Glass)", price: "$10", description: "" },
+      { name: "House White (Glass)", price: "$10", description: "" },
+      { name: "House Rosé (Glass)", price: "$10", description: "" },
+      { name: "House Red (Bottle)", price: "$35", description: "" },
+      { name: "House White (Bottle)", price: "$35", description: "" }
+    ],
+    "Non-Alcoholic": [
+      { name: "Aguas Naturales (Natural Flavored Water)", price: "$5", description: "Horchata (Rice-Flavored), Tamarindo (Tamarind), Jamaica (Hibiscus), Maracuya (Passion Fruit), Lemonade" },
+      { name: "Jarritos (Bottled Flavored Mexican Sodas)", price: "$5", description: "Grapefruit, Lemon, Pineapple, Mandarin, Tamarind" },
+      { name: "Mineragua (Sparkling Water)", price: "$5", description: "" },
+      { name: "Mexican Bottled Cocacola", price: "$5", description: "" },
+      { name: "Canned Sodas", price: "$4", description: "Coke, Diet Coke, Ginger Ale, Sprite, Bottled Water" },
+      { name: "Licuados (Fresh Fruit Milkshakes)", price: "$6", description: "Banana, Mango, Fresa (Strawberry)" },
+      { name: "Juices", price: "$4", description: "Apple, Cranberry, Orange" }
+    ]
+  },
 
   catering: {
     appetizers: [
@@ -646,7 +743,7 @@ function initContactForm() {
       if (e.key === "Escape") closeModal();
     });
 
-    // Render lunch + catering panels if present
+    // Render menu panels
     function renderItems(target, items) {
       if (!target || !items) return;
       target.innerHTML = items.map((item) => `
@@ -656,8 +753,20 @@ function initContactForm() {
           <p>${item.description || ""}</p>
         </article>`).join("");
     }
+    function renderCategorized(target, obj) {
+      if (!target || !obj) return;
+      var html = "";
+      Object.keys(obj).forEach(function (heading) {
+        html += '<h3 class="menu-section-heading">' + heading + '</h3>';
+        html += obj[heading].map(function (item) {
+          return '<article class="menu-item"><h3>' + item.name + '</h3><div class="price">' + (item.price || "") + '</div><p>' + (item.description || "") + '</p></article>';
+        }).join("");
+      });
+      target.innerHTML = html;
+    }
     if (menu) {
-      renderItems(document.querySelector("[data-lunch-items]"), menu.lunch);
+      renderCategorized(document.querySelector("[data-lunch-items]"), menu.lunch);
+      renderCategorized(document.querySelector("[data-drinks-items]"), menu.drinks);
       if (menu.catering) {
         const allCatering = [].concat(
           menu.catering.appetizers || [],

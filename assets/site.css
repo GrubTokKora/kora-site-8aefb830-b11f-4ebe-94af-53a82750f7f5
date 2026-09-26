@@ -846,6 +846,18 @@ h2 {
   gap: 0 2.5rem;
 }
 
+.menu-section-heading {
+  grid-column: 1 / -1;
+  font-family: var(--ff-display, "Sora", sans-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--clr-accent, #d1a868);
+  margin: 1.75rem 0 .5rem;
+  padding-bottom: .45rem;
+  border-bottom: 2px solid var(--clr-accent, #d1a868);
+}
+.menu-section-heading:first-child { margin-top: .5rem; }
+
 .menu-item {
   padding: 1.15rem 0;
   border-bottom: 1px solid rgba(209, 168, 104, .18);
