@@ -113,7 +113,7 @@ window.CV_MENU = {
         { name: "Flan", price: "$11", description: "A silky, orange-scented vanilla-egg custard with a light caramel" },
         { name: "Churros con Dulce de Leche", price: "$12", description: "Mexican \"doughnut-like sticks\" dusted with cinnamon-sugar, served with dulce de leche (Mexican milk caramel)" },
         { name: "Pastel de Tres Leches", price: "$14", description: "A moist, sponge-like cake soaked in three milks" },
-        { name: "Lava Cake con Helado", price: "$14", description: "Warm, moist chocolate soufflé with a creamy chocolate center, served with vanilla ice cream" },
+        { name: "Lava Cake con Helado", price: "$13", description: "Warm, moist chocolate soufflé with a creamy chocolate center, served with vanilla ice cream" },
         { name: "Sopapillas", price: "$13", description: "Crispy flour triangles topped with brandy-flambé sliced bananas and vanilla ice cream" }
       ]
     },
@@ -209,7 +209,7 @@ window.CV_MENU = {
       { name: "Tradicional (On the rocks or frozen)", price: "$14", description: "" },
       { name: "Tradicional Pitcher (5 margaritas)", price: "$56", description: "" },
       { name: "Tradicional Half Pitcher", price: "$28", description: "" },
-      { name: "Flavored Margaritas (On The Rocks Or Frozen)", price: "$15", description: "Mango · Strawberry · Coconut · Passion Fruit · Tamarind" },
+      { name: "Flavored Margaritas (On The Rocks Or Frozen)", price: "$15", description: "Strawberry · Mango · Tamarindo · Coconut · Passion Fruit · Hibiscus" },
       { name: "Skinny Marg", price: "$14", description: "Tequila blanco, fresh lime, organic agave nectar" },
       { name: "El Secreto", price: "$17", description: "Casamigos blanco, lime, cane simple, elder flower, guava purée" },
       { name: "El Oaxaco", price: "$17", description: "Mezcal blanco, mango purée, fresh lime, cane simple, tajin-rimmed" }
@@ -246,13 +246,13 @@ window.CV_MENU = {
       { name: "Michelada", price: "$9", description: "Fresh lime juice, Clamato, ice, Tajin-rimmed and your choice of beer" }
     ],
     "Vinos (Wines)": [
-      { name: "Cabernet — Bashee", price: "", description: "Glass $14 · Bottle $42" },
-      { name: "Merlot — Castillero del Diablo", price: "", description: "Glass $12 · Bottle $38" },
-      { name: "Malbec — Nieto (Argentina)", price: "", description: "Glass $13 · Bottle $42" },
-      { name: "Pinot Noir — Rickshaw", price: "", description: "Glass $12 · Bottle $38" },
-      { name: "Chardonnay — Carmenet", price: "", description: "Glass $13 · Bottle $42" },
-      { name: "Pinot Grigio — Santa Marina", price: "", description: "Glass $12 · Bottle $36" },
-      { name: "Sauvignon Blanc — Dashwood", price: "", description: "Glass $12 · Bottle $38" }
+      { name: "Cabernet — Dasheed", price: "", description: "Glass $14 · Bottle $45" },
+      { name: "Merlot — Castillero del Diablo", price: "", description: "Glass $12 · Bottle $40" },
+      { name: "Malbec — Nieto (Argentina)", price: "", description: "Glass $13 · Bottle $45" },
+      { name: "Pinot Noir — Rickshaw", price: "", description: "Glass $12 · Bottle $40" },
+      { name: "Chardonnay — Carmenet", price: "", description: "Glass $13 · Bottle $44" },
+      { name: "Pinot Grigio — Santa Marina", price: "", description: "Glass $12 · Bottle $42" },
+      { name: "Sauvignon Blanc — Dashwood", price: "", description: "Glass $12 · Bottle $42" }
     ],
     "Non-Alcoholic": [
       { name: "Aguas Naturales (Natural Flavored Water)", price: "$5", description: "Horchata (Rice-Flavored), Tamarindo (Tamarind), Jamaica (Hibiscus), Maracuya (Passion Fruit), Lemonade" },
