@@ -123,10 +123,10 @@ window.CV_MENU = {
       image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097672_hej78l.jpg",
       items: [
         { name: "Aguas Naturales (Natural Flavored Water)", price: "$5", description: "Horchata (Rice-Flavored), Tamarindo (Tamarind), Jamaica (Hibiscus), Maracuya (Passion Fruit), Lemonade" },
-        { name: "Jarritos (Bottled Flavored Mexican Sodas)", price: "$5", description: "Grapefruit, Lemon, Pineapple, Mandarin, Tamarind" },
+        { name: "Jarritos (Bottled Flavored Mexican Sodas)", price: "$5", description: "Grapefruit, Lime, Pineapple, Mandarine, Tamarind, Apple" },
         { name: "Mineragua (Sparkling Water)", price: "$5", description: "" },
         { name: "Mexican Bottled Cocacola", price: "$5", description: "" },
-        { name: "Canned Sodas", price: "$4", description: "Coke, Diet Coke, Ginger Ale, Sprite, Bottled Water" },
+        { name: "Canned Sodas", price: "$4", description: "Coke, Diet Coke, Ginger Ale, Sprite, Still Water" },
         { name: "Licuados (Fresh Fruit Milkshakes)", price: "$6", description: "Banana, Mango, Fresa (Strawberry)" },
         { name: "Juices", price: "$4", description: "Apple, Cranberry, Orange" }
       ]
@@ -203,72 +203,63 @@ window.CV_MENU = {
 
   drinks: {
     "Margaritas": [
-      { name: "Classic Margarita", price: "$14", description: "Tequila, triple sec, fresh lime juice — on the rocks or frozen" },
-      { name: "Cadillac Margarita", price: "$18", description: "Patrón Silver, Grand Marnier, fresh lime juice" },
-      { name: "Spicy Margarita", price: "$16", description: "Tequila, triple sec, fresh lime juice, jalapeño, Tajín rim" },
-      { name: "Skinny Margarita", price: "$15", description: "Tequila, fresh lime juice, agave nectar" },
-      { name: "Mango Margarita", price: "$15", description: "Tequila, triple sec, mango purée, fresh lime juice" },
-      { name: "Strawberry Margarita", price: "$15", description: "Tequila, triple sec, strawberry purée, fresh lime juice" },
-      { name: "Passion Fruit Margarita", price: "$15", description: "Tequila, triple sec, passion fruit purée, fresh lime juice" },
-      { name: "Tamarind Margarita", price: "$15", description: "Tequila, triple sec, tamarind purée, fresh lime juice" },
-      { name: "Pitcher of Margaritas", price: "$50", description: "Serves 4–5 guests" }
+      { name: "Villa's Margarita (On The Rocks)", price: "$16", description: "Made with fresh lime, premium liquor and your choice of Tequila (1800, El Jimador, Herradura)" },
+      { name: "Villa's Margarita Pitcher (5 margaritas)", price: "$64", description: "" },
+      { name: "Villa's Margarita 1/2 Pitcher", price: "$32", description: "" },
+      { name: "Tradicional (On the rocks or frozen)", price: "$14", description: "" },
+      { name: "Tradicional Pitcher (5 margaritas)", price: "$56", description: "" },
+      { name: "Tradicional Half Pitcher", price: "$28", description: "" },
+      { name: "Flavored Margaritas (On The Rocks Or Frozen)", price: "$15", description: "Mango · Strawberry · Coconut · Passion Fruit · Tamarind" },
+      { name: "Skinny Marg", price: "$14", description: "Tequila blanco, fresh lime, organic agave nectar" },
+      { name: "El Secreto", price: "$17", description: "Casamigos blanco, lime, cane simple, elder flower, guava purée" },
+      { name: "El Oaxaco", price: "$17", description: "Mezcal blanco, mango purée, fresh lime, cane simple, tajin-rimmed" }
     ],
-    "Tequila": [
-      { name: "Casa Villa Blanco", price: "$10", description: "" },
-      { name: "Casa Villa Reposado", price: "$11", description: "" },
-      { name: "Patrón Silver", price: "$14", description: "" },
-      { name: "Patrón Reposado", price: "$15", description: "" },
-      { name: "Patrón Añejo", price: "$17", description: "" },
-      { name: "Don Julio Blanco", price: "$14", description: "" },
-      { name: "Don Julio Reposado", price: "$15", description: "" },
-      { name: "Don Julio Añejo", price: "$17", description: "" },
-      { name: "Don Julio 1942", price: "$35", description: "" },
-      { name: "Clase Azul Reposado", price: "$45", description: "" },
-      { name: "Casamigos Blanco", price: "$14", description: "" },
-      { name: "Casamigos Reposado", price: "$15", description: "" },
-      { name: "Casamigos Añejo", price: "$17", description: "" }
+    "Tequilas": [
+      { name: "Casamigos", price: "", description: "Silver $13" },
+      { name: "Patrón", price: "", description: "Silver $12 · Reposado $13 · Añejo $13" },
+      { name: "Don Julio", price: "", description: "Silver $11 · Reposado $11 · Añejo $12" },
+      { name: "1800", price: "", description: "Silver $8 · Reposado $9 · Añejo $10" },
+      { name: "Herradura", price: "", description: "Silver $7 · Reposado $8 · Añejo $9" },
+      { name: "El Jimador", price: "", description: "Silver $9 · Reposado $10 · Añejo $11" }
     ],
     "Mojitos": [
-      { name: "Classic Mojito", price: "$14", description: "White rum, fresh mint, lime juice, sugar, soda" },
-      { name: "Mango Mojito", price: "$15", description: "White rum, mango purée, fresh mint, lime juice" },
-      { name: "Strawberry Mojito", price: "$15", description: "White rum, strawberry purée, fresh mint, lime juice" },
-      { name: "Passion Fruit Mojito", price: "$15", description: "White rum, passion fruit purée, fresh mint, lime juice" }
+      { name: "Classic Mojito", price: "$14", description: "Bacardi, fresh mint, fresh lime, cane simple" },
+      { name: "Flavored Mojitos", price: "$15", description: "Strawberry, Mango, Passion Fruit, Coconut, Tamarind" }
     ],
     "Mixed Drinks": [
-      { name: "Michelada", price: "$12", description: "Mexican beer, lime juice, assorted sauces, spices, Tajín rim" },
-      { name: "Paloma", price: "$14", description: "Tequila, grapefruit soda, fresh lime juice, salt rim" },
-      { name: "Piña Colada", price: "$14", description: "White rum, coconut cream, pineapple juice" },
-      { name: "Sangria (Glass)", price: "$12", description: "Red wine, brandy, fresh fruit, orange juice" },
-      { name: "Sangria (Pitcher)", price: "$40", description: "Serves 4–5 guests" }
+      { name: "Black Russian", price: "$10", description: "Vodka and Kahlua" },
+      { name: "Paloma", price: "$14", description: "Tequila blanco, grapefruit soda, lime juice, salt-rimmed" },
+      { name: "Piña Colada", price: "$13", description: "" },
+      { name: "Red Sangria", price: "$13", description: "" },
+      { name: "Pitcher of Red Sangria (5 glasses)", price: "$52", description: "" },
+      { name: "1/2 Pitcher Red Sangria", price: "$26", description: "" }
     ],
     "Cervezas (Beer)": [
-      { name: "Corona", price: "$7", description: "" },
-      { name: "Corona Light", price: "$7", description: "" },
-      { name: "Modelo Especial", price: "$7", description: "" },
       { name: "Negra Modelo", price: "$7", description: "" },
-      { name: "Dos Equis Lager", price: "$7", description: "" },
-      { name: "Dos Equis Amber", price: "$7", description: "" },
-      { name: "Pacifico", price: "$7", description: "" },
-      { name: "Tecate", price: "$7", description: "" },
+      { name: "Modelo Especial", price: "$7", description: "" },
       { name: "Victoria", price: "$7", description: "" },
-      { name: "Heineken", price: "$7", description: "" },
-      { name: "Bud Light", price: "$6", description: "" },
-      { name: "Coors Light", price: "$6", description: "" },
-      { name: "Bucket of Beer (5)", price: "$30", description: "Five bottles of your choice" }
+      { name: "Pacifico", price: "$7", description: "" },
+      { name: "Dos XX Amber", price: "$7", description: "" },
+      { name: "Corona", price: "$7", description: "" },
+      { name: "Dos XX Lager", price: "$7", description: "" },
+      { name: "Corona Light", price: "$7", description: "" },
+      { name: "Michelada", price: "$9", description: "Fresh lime juice, Clamato, ice, Tajin-rimmed and your choice of beer" }
     ],
-    "Vinos (Wine)": [
-      { name: "House Red (Glass)", price: "$10", description: "" },
-      { name: "House White (Glass)", price: "$10", description: "" },
-      { name: "House Rosé (Glass)", price: "$10", description: "" },
-      { name: "House Red (Bottle)", price: "$35", description: "" },
-      { name: "House White (Bottle)", price: "$35", description: "" }
+    "Vinos (Wines)": [
+      { name: "Cabernet — Bashee", price: "", description: "Glass $14 · Bottle $42" },
+      { name: "Merlot — Castillero del Diablo", price: "", description: "Glass $12 · Bottle $38" },
+      { name: "Malbec — Nieto (Argentina)", price: "", description: "Glass $13 · Bottle $42" },
+      { name: "Pinot Noir — Rickshaw", price: "", description: "Glass $12 · Bottle $38" },
+      { name: "Chardonnay — Carmenet", price: "", description: "Glass $13 · Bottle $42" },
+      { name: "Pinot Grigio — Santa Marina", price: "", description: "Glass $12 · Bottle $36" },
+      { name: "Sauvignon Blanc — Dashwood", price: "", description: "Glass $12 · Bottle $38" }
     ],
     "Non-Alcoholic": [
       { name: "Aguas Naturales (Natural Flavored Water)", price: "$5", description: "Horchata (Rice-Flavored), Tamarindo (Tamarind), Jamaica (Hibiscus), Maracuya (Passion Fruit), Lemonade" },
-      { name: "Jarritos (Bottled Flavored Mexican Sodas)", price: "$5", description: "Grapefruit, Lemon, Pineapple, Mandarin, Tamarind" },
+      { name: "Jarritos (Bottled Flavored Mexican Sodas)", price: "$5", description: "Grapefruit, Lime, Pineapple, Mandarine, Tamarind, Apple" },
       { name: "Mineragua (Sparkling Water)", price: "$5", description: "" },
       { name: "Mexican Bottled Cocacola", price: "$5", description: "" },
-      { name: "Canned Sodas", price: "$4", description: "Coke, Diet Coke, Ginger Ale, Sprite, Bottled Water" },
+      { name: "Canned Sodas", price: "$4", description: "Coke, Diet Coke, Ginger Ale, Sprite, Still Water" },
       { name: "Licuados (Fresh Fruit Milkshakes)", price: "$6", description: "Banana, Mango, Fresa (Strawberry)" },
       { name: "Juices", price: "$4", description: "Apple, Cranberry, Orange" }
     ]
