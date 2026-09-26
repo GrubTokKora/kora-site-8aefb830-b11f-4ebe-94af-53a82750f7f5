@@ -807,16 +807,12 @@ h2 {
   background-image: url("https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097683_kubq47.jpg");
 }
 
-.cat-tile[data-cat="burritos"] {
-  background-image: url("https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097653_k2f802.jpg");
+.cat-tile[data-cat="vegetarian"] {
+  background-image: url("https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097683_kubq47.jpg");
 }
 
 .cat-tile[data-cat="soups"] {
   background-image: url("https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097848_cjjzrh.jpg");
-}
-
-.cat-tile[data-cat="quesadillas"] {
-  background-image: url("https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097839_2o8pjm.jpg");
 }
 
 .cat-tile[data-cat="tacos"] {
