@@ -47,7 +47,7 @@ window.CV_MENU = {
     {
       id: "from-the-sea",
       name: "From the Sea",
-      image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097669_v2dz2y.jpg",
+      image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097839_2o8pjm.jpg",
       items: [
         { name: "Salmón Veracruz", price: "$28", description: "Grilled salmon fillet with Veracruz sauce (green olives, capers, tomatoes, onions, lime-butter). Served with grilled vegetables and roasted garlic-mashed potatoes" },
         { name: "Shrimp in Garlic Sauce", price: "$27", description: "Sautéed shrimp with tomatoes & onions in a light lime-garlic sauce, served with rice and salad" },
@@ -59,7 +59,7 @@ window.CV_MENU = {
     {
       id: "on-the-land",
       name: "On the Land",
-      image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097679_c0mfng.jpg",
+      image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097650_ay3k1s.jpg",
       items: [
         { name: "Grilled Pork Chops in a Guajillo-Adobo", price: "$25", description: "Charcoal-grilled pork chops topped with a guajillo-adobo sauce, served with rice and pinto beans" },
         { name: "Carne Asada", price: "$26", description: "Charcoal-grilled marinated flap meat, served with rice, beans, lettuce, guacamole, sour cream and pico de gallo" },
