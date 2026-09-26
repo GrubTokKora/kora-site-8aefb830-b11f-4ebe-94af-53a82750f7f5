@@ -32,8 +32,8 @@ window.CV_MENU = {
       ]
     },
     {
-      id: "entrees",
-      name: "Entrées",
+      id: "chefs-specials",
+      name: "Chef's Specials",
       image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097683_kubq47.jpg",
       items: [
         { name: "Fajitas", price: "", description: "Our sizzling marinated meats with peppers, onions, and cilantro. Served with rice, beans, shredded lettuce, guacamole, pico de gallo, sour cream and flour tortillas. Chicken $24 · Steak $26 · Shrimp $27 · All the Way (Trio) $29" },
@@ -41,12 +41,26 @@ window.CV_MENU = {
         { name: "Mole Chicken Enchiladas", price: "$25", description: "Three soft corn tortillas filled with shredded chicken, topped with our special mole sauce, melted cheese, served with rice, beans, and sour cream" },
         { name: "Shrimp Enchiladas", price: "$27", description: "Three soft corn tortillas filled with sautéed shrimp, onions and tomatoes topped with salsa verde, melted cheese, served with rice, beans and sour cream" },
         { name: "Cecina con Arroz y Frijoles", price: "$26", description: "Thinly sliced aged beef served with queso fresco, avocado, rice and beans" },
-        { name: "Carne Adobada con Arroz y Frijoles", price: "$24", description: "Chile-marinated pork slices served with rice, beans, avocado and queso fresco" },
+        { name: "Carne Adobada con Arroz y Frijoles", price: "$24", description: "Chile-marinated pork slices served with rice, beans, avocado and queso fresco" }
+      ]
+    },
+    {
+      id: "from-the-sea",
+      name: "From the Sea",
+      image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097669_v2dz2y.jpg",
+      items: [
         { name: "Salmón Veracruz", price: "$28", description: "Grilled salmon fillet with Veracruz sauce (green olives, capers, tomatoes, onions, lime-butter). Served with grilled vegetables and roasted garlic-mashed potatoes" },
         { name: "Shrimp in Garlic Sauce", price: "$27", description: "Sautéed shrimp with tomatoes & onions in a light lime-garlic sauce, served with rice and salad" },
         { name: "Shrimp in Chipotle Sauce", price: "$27", description: "Jumbo shrimp with mushrooms and onions in a chipotle-cream sauce, served with rice and beans" },
         { name: "Shrimp a la Diabla", price: "$27", description: "Sautéed shrimp with sliced onions in a spicy red-chili sauce, served with rice and beans" },
-        { name: "Tuna a la Mexicana", price: "$35", description: "Sesame-blackened seared ahi tuna steak (served medium rare) with \"Mexican vegetable-fried rice,\" topped with an avocado-pico de gallo" },
+        { name: "Tuna a la Mexicana", price: "$35", description: "Sesame-blackened seared ahi tuna steak (served medium rare) with \"Mexican vegetable-fried rice,\" topped with an avocado-pico de gallo" }
+      ]
+    },
+    {
+      id: "on-the-land",
+      name: "On the Land",
+      image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097679_c0mfng.jpg",
+      items: [
         { name: "Grilled Pork Chops in a Guajillo-Adobo", price: "$25", description: "Charcoal-grilled pork chops topped with a guajillo-adobo sauce, served with rice and pinto beans" },
         { name: "Carne Asada", price: "$26", description: "Charcoal-grilled marinated flap meat, served with rice, beans, lettuce, guacamole, sour cream and pico de gallo" },
         { name: "Casa Villa's Charcoal-Grilled NY Steak", price: "$33", description: "Charcoal-grilled NY Steak topped with a salsa macha-butter served with roasted garlic-mashed potatoes and grilled seasonal vegetables" },
