@@ -87,7 +87,7 @@ window.CV_MENU = {
       name: "Tacos",
       image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097853_t079c0.jpg",
       items: [
-        { name: "Tacos", price: "$5", description: "Soft corn tortillas topped with chopped onions, cilantro and spicy salsa. Chicken · Carnitas · Steak · Pork Cracklings · Shrimp · Chorizo (Mexican Sausage) · Cecina (Aged Beef) · Chili Marinated Pork" },
+        { name: "Tacos", price: "$5", description: "Soft corn tortillas topped with chopped onions, cilantro and spicy salsa. <strong>Chicken · Carnitas · Steak · Pork Cracklings · Shrimp · Chorizo (Mexican Sausage) · Cecina (Aged Beef) · Chili Marinated Pork</strong>" },
         { name: "Tacos Al Pastor", price: "$5", description: "Our especially marinated pork loin, slowly fire-roasted, served with pieces of grilled pineapple" },
         { name: "Tongue Tacos", price: "$7", description: "" },
         { name: "Tacos de Birria", price: "$23", description: "Three Birria tacos with melted cheese, onions and cilantro, served with a side of birria broth, rice and beans" },
