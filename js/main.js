@@ -100,10 +100,10 @@ window.CV_MENU = {
       name: "Soups",
       image: "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/8aefb830-b11f-4ebe-94af-53a82750f7f5/de8c94d8-887e-4625-825f-ec262dbc28df/1786097848_cjjzrh.jpg",
       items: [
-        { name: "Sopa de Pollo", price: "", description: "Home style chicken soup garnished with chopped onions and cilantro. Served with a side of rice or corn tortillas. Appetizer $14 · Entrée $19" },
+        { name: "Sopa de Pollo", price: "", description: "Home style chicken soup garnished with chopped onions and cilantro. Served with a side of rice or corn tortillas. <strong>Appetizer $14 · Entrée $19</strong>" },
         { name: "Sopa de Mariscos", price: "$27", description: "A mélange of fresh seafood (clams, shrimp, calamari, crab, mussels) and diced vegetables in a red seafood broth. Served with a side of rice or corn tortillas" },
-        { name: "Mondongo", price: "", description: "Tripe soup with potatoes in a mild red chile broth garnished with chopped onions and fresh cilantro. Served with a side of rice or corn tortillas. Appetizer $15 · Entrée $19" },
-        { name: "Sopa de Res (Home Style Beef Soup)", price: "", description: "Home-Style beef soup with potatoes, carrots, onions and celery garnished with chopped onions and fresh cilantro. Served with a side of rice or corn tortillas. Appetizer $16 · Entrée $24" }
+        { name: "Mondongo", price: "", description: "Tripe soup with potatoes in a mild red chile broth garnished with chopped onions and fresh cilantro. Served with a side of rice or corn tortillas. <strong>Appetizer $15 · Entrée $19</strong>" },
+        { name: "Sopa de Res (Home Style Beef Soup)", price: "", description: "Home-Style beef soup with potatoes, carrots, onions and celery garnished with chopped onions and fresh cilantro. Served with a side of rice or corn tortillas. <strong>Appetizer $16 · Entrée $24</strong>" }
       ]
     },
     {
@@ -165,10 +165,10 @@ window.CV_MENU = {
       { name: "Two Fish Tacos", price: "$19", description: "Two fish tacos topped with a roasted corn avocado salsa, served with rice and black beans" }
     ],
     "Soups": [
-      { name: "Sopa de Pollo", price: "", description: "Home style chicken soup garnished with chopped onions and cilantro. Served with a side of rice or corn tortillas. Appetizer $13 · Entrée $17" },
-      { name: "Sopa de Mariscos", price: "", description: "A mélange of fresh seafood in a red seafood broth. Served with a side of rice or corn tortillas. Appetizer $17 · Entrée $27" },
-      { name: "Mondongo (Sopa de Pancita)", price: "", description: "Tripe soup with potatoes in a mild red chile broth. Served with a side of rice or corn tortillas. Appetizer $14 · Entrée $19" },
-      { name: "Sopa de Res (Beef Soup)", price: "", description: "Home-Style beef soup with potatoes, carrots, onions and celery. Served with a side of rice or corn tortillas. Appetizer $15 · Entrée $21" }
+      { name: "Sopa de Pollo", price: "", description: "Home style chicken soup garnished with chopped onions and cilantro. Served with a side of rice or corn tortillas. <strong>Appetizer $13 · Entrée $17</strong>" },
+      { name: "Sopa de Mariscos", price: "", description: "A mélange of fresh seafood in a red seafood broth. Served with a side of rice or corn tortillas. <strong>Appetizer $17 · Entrée $27</strong>" },
+      { name: "Mondongo (Sopa de Pancita)", price: "", description: "Tripe soup with potatoes in a mild red chile broth. Served with a side of rice or corn tortillas. <strong>Appetizer $14 · Entrée $19</strong>" },
+      { name: "Sopa de Res (Beef Soup)", price: "", description: "Home-Style beef soup with potatoes, carrots, onions and celery. Served with a side of rice or corn tortillas. <strong>Appetizer $15 · Entrée $21</strong>" }
     ],
     "From the Garden": [
       { name: "Ensalada de la Casa", price: "$16", description: "Romaine, field greens, tomatoes, red onions, carrots with our orange-chipotle vinaigrette, topped with avocado. Add: Chicken +$5 · Grilled Shrimp +$7 · Grilled Salmon +$10" },
