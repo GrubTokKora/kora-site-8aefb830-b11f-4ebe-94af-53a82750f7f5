@@ -1708,3 +1708,32 @@ body.nav-open .site-header {
     transform: none;
   }
 }
+
+/* ── The menus are drawn by Kora into the kora:data:menu region ── */
+.kora-menu .kora-menu__switcher { display: flex; flex-wrap: wrap; gap: 0.55rem; justify-content: center; margin: 0 0 2rem; }
+.kora-menu .kora-menu__switcher a {
+  padding: 0.7rem 1.1rem; border: 1px solid var(--color-brand-border); border-radius: 0;
+  font-family: var(--font-nav); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--color-brand-muted); text-decoration: none; transition: .25s var(--ease);
+}
+.kora-menu .kora-menu__switcher a[aria-current="true"],
+.kora-menu .kora-menu__switcher a:hover { background: var(--color-brand-primary); color: var(--color-brand-dark); border-color: var(--color-brand-primary); }
+.kora-menu .kora-menu__menu { margin: 0; animation: fadeUp .55s var(--ease); }
+.kora-menu .kora-menu__menu-title { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; margin: 0; }
+.kora-menu .kora-menu__nav { display: none; }
+.kora-menu .kora-menu__section { margin: 0 0 1rem; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 2.5rem; }
+.kora-menu .kora-menu__section-title {
+  grid-column: 1 / -1; font-family: var(--ff-display, "Sora", sans-serif); font-size: 1.35rem; font-weight: 700;
+  color: var(--clr-accent, #d1a868); margin: 1.75rem 0 .5rem; padding-bottom: .45rem; border-bottom: 2px solid var(--clr-accent, #d1a868);
+}
+.kora-menu .kora-menu__section:first-of-type .kora-menu__section-title { margin-top: .5rem; }
+.kora-menu .kora-menu__items { display: contents; }
+.kora-menu .kora-menu__item { padding: 1.15rem 0; border-bottom: 1px solid rgba(209, 168, 104, .18); display: grid; grid-template-columns: 1fr auto; gap: 0.35rem 1rem; }
+.kora-menu .kora-menu__item-body { display: contents; }
+.kora-menu .kora-menu__item-head { display: contents; }
+.kora-menu .kora-menu__item-name { margin: 0; font-family: var(--font-heading); font-size: 1.15rem; font-weight: 600; color: var(--color-brand-dark); }
+.kora-menu .kora-menu__item-price { font-family: var(--font-nav); font-weight: 700; color: var(--color-brand-accent); letter-spacing: 0.04em; }
+.kora-menu .kora-menu__item-desc { grid-column: 1 / -1; margin: 0; color: var(--color-brand-muted); font-size: 0.94rem; opacity: 1; }
+/* All Day: the categories show as picture tiles that open a dialog. */
+.kora-menu .kora-menu__menu.has-tiles > .kora-menu__section { display: none; }
+@media (max-width: 900px) { .kora-menu .kora-menu__section { grid-template-columns: 1fr; } }
