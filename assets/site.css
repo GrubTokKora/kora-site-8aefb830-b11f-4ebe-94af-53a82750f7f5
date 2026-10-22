@@ -13,11 +13,11 @@
   --color-brand-muted: #6b5e52;
   --color-brand-border: rgba(209, 168, 104, 0.28);
   --color-brand-overlay: rgba(20, 20, 20, 0.62);
-  --font-brand: "Playfair Display", Georgia, serif;
-  --font-heading: "Playfair Display", Georgia, serif;
+  --font-brand: var(--kora-font-heading, "Playfair Display"), Georgia, serif;
+  --font-heading: var(--kora-font-heading, "Playfair Display"), Georgia, serif;
   --font-script: "Herr Von Muellerhoff", "Kristi", cursive;
-  --font-nav: "Manrope", system-ui, sans-serif;
-  --font-body: "Roboto", system-ui, sans-serif;
+  --font-nav: var(--kora-font-body, "Manrope"), system-ui, sans-serif;
+  --font-body: var(--kora-font-body, "Roboto"), system-ui, sans-serif;
   --shadow-soft: 0 18px 50px rgba(20, 20, 20, 0.14);
   --radius: 2px;
   --header-h: 76px;
